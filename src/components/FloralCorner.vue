@@ -28,5 +28,9 @@ defineProps({
       fill="#c4a08a"
       opacity="0.7"
     />
+    <path
+      d="M66 52c3-6 11-7 14-2 2 4 0 8-3 10-4 3-9 2-11-1-2-3-1-5 0-7Z"
+      
+    />
   </svg>
 </template>
