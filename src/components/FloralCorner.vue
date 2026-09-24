@@ -74,5 +74,11 @@ defineProps({
       stroke-width="1.2"
       opacity="0.35"
     />
+    <path
+      d="M92 118c4 20 2 44-6 66"
+      stroke="#6e4d52"
+      stroke-width="1"
+      opacity="0.28"
+    />
   </svg>
 </template>
