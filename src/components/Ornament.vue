@@ -24,4 +24,5 @@ defineProps({
       stroke-width="1"
       fill="none"
     />
+    <circle cx="60" cy="12" r="2.2" fill="currentColor" />
 </template>
