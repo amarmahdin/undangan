@@ -67,5 +67,12 @@ defineProps({
     <circle cx="128" cy="118" r="4" fill="#8b3a45" opacity="0.4" />
     <circle cx="22" cy="118" r="3.5" fill="#c9a36a" opacity="0.4" />
 
+     <!-- fine stem lines -->
+    <path
+      d="M48 118c8 22 6 48-4 72"
+      stroke="#6e4d52"
+      stroke-width="1.2"
+      opacity="0.35"
+    />
   </svg>
 </template>
