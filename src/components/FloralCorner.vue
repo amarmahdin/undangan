@@ -44,5 +44,22 @@ defineProps({
       fill="#6b2a36"
       opacity="0.65"
     />
+
+    <!-- leaves -->
+    <path
+      d="M40 110c18-8 34 2 38 18-16 4-30-2-38-18Z"
+      fill="#5c6b4a"
+      opacity="0.35"
+    />
+    <path
+      d="M28 86c14 10 16 28 6 40-12-12-16-28-6-40Z"
+      fill="#4a5c3a"
+      opacity="0.3"
+    />
+    <path
+      d="M118 96c16 6 22 22 14 36-14-8-22-22-14-36Z"
+      fill="#5c6b4a"
+      opacity="0.28"
+    />
   </svg>
 </template>
