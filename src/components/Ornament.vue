@@ -25,4 +25,5 @@ defineProps({
       fill="none"
     />
     <circle cx="60" cy="12" r="2.2" fill="currentColor" />
+</svg>
 </template>
