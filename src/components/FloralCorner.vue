@@ -14,5 +14,6 @@ defineProps({
     :class="side === 'right' ? '-scale-x-100' : ''"
   >
   <ellipse cx="48" cy="52" rx="42" ry="38" fill="#6b2a36" opacity="0.18" />
+  <ellipse cx="88" cy="78" rx="36" ry="32" fill="#c9a36a" opacity="0.16" />
   </svg>
 </template>
