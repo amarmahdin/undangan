@@ -18,4 +18,10 @@ defineProps({
       stroke-width="1"
       stroke-linecap="round"
     />
+    <path
+      d="M50 12c4-8 16-8 20 0-4 8-16 8-20 0Z"
+      stroke="currentColor"
+      stroke-width="1"
+      fill="none"
+    />
 </template>
