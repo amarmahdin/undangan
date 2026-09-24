@@ -13,6 +13,6 @@ defineProps({
     class="pointer-events-none h-auto w-full"
     :class="side === 'right' ? '-scale-x-100' : ''"
   >
-  
+  <ellipse cx="48" cy="52" rx="42" ry="38" fill="#6b2a36" opacity="0.18" />
   </svg>
 </template>
