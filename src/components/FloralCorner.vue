@@ -65,6 +65,7 @@ defineProps({
     <!-- small buds -->
     <circle cx="34" cy="64" r="5" fill="#a67c3d" opacity="0.45" />
     <circle cx="128" cy="118" r="4" fill="#8b3a45" opacity="0.4" />
-    
+    <circle cx="22" cy="118" r="3.5" fill="#c9a36a" opacity="0.4" />
+
   </svg>
 </template>
