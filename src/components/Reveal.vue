@@ -27,5 +27,15 @@ onBeforeUnmount(() => observer?.disconnect())
 </script>
 
 <template>
-  
+   <div
+    ref="root"
+    class="reveal"
+    :class="[
+      `reveal-${from}`,
+      shown ? 'reveal-in' : '',
+    ]"
+    :style="{ transitionDelay: `${delay}ms` }"
+  >
+    <slot />
+  </div>
 </template>
