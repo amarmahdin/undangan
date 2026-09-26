@@ -6,4 +6,6 @@ defineProps({
   visible: { type: Boolean, default: true },
 })
 
+defineEmits(['open'])
+
 </script>
