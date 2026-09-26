@@ -11,7 +11,9 @@ const shown = ref(false)
 let observer
 
 onMounted(() => {
-  
+  observer = new IntersectionObserver(
+    
+  )
 })
 
 </script>
