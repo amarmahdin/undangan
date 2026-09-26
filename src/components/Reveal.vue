@@ -25,3 +25,7 @@ onMounted(() => {
 
 onBeforeUnmount(() => observer?.disconnect())
 </script>
+
+<template>
+  
+</template>
