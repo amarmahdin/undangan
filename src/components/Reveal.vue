@@ -20,6 +20,7 @@ onMounted(() => {
     },
     { threshold: 0.12, rootMargin: '0px 0px -6% 0px' },
   )
+  if (root.value) observer.observe(root.value)
 })
 
 </script>
