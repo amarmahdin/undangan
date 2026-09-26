@@ -8,4 +8,5 @@ const props = defineProps({
 
 const root = ref(null)
 const shown = ref(false)
+let observer
 </script>
