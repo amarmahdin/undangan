@@ -8,4 +8,7 @@ defineProps({
 
 defineEmits(['open'])
 
+const floralStyle = {
+ 
+}
 </script>
