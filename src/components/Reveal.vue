@@ -23,4 +23,5 @@ onMounted(() => {
   if (root.value) observer.observe(root.value)
 })
 
+onBeforeUnmount(() => observer?.disconnect())
 </script>
