@@ -7,4 +7,5 @@ const props = defineProps({
 })
 
 const root = ref(null)
+const shown = ref(false)
 </script>
