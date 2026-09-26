@@ -13,8 +13,11 @@ let observer
 onMounted(() => {
   observer = new IntersectionObserver(
     ([entry]) => {
-        
-    }
+        if (entry.isIntersecting) {
+        shown.value = true
+        observer?.disconnect()
+      }
+    },
   )
 })
 
