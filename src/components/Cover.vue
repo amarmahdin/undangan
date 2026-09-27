@@ -38,7 +38,9 @@ const floralStyle = {
       </p>
     </div>
     <div class="flex flex-col items-center animate-fade-up-delay">
-        
+      <h1 class="font-script text-[clamp(3.5rem,13vw,5.75rem)] leading-none text-champagne">
+        Euis <span class="text-champagne">&</span> Eka
+      </h1>
     </div>
     </div>
   </section>>
