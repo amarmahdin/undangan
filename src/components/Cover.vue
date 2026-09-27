@@ -16,7 +16,10 @@ const floralStyle = {
 </script>
 
 <template>  
-  <section> 
+  <section
+    class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-burgundy-deep transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
     
+  > 
+
   </section>>
 </template>
