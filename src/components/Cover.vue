@@ -37,6 +37,9 @@ const floralStyle = {
         The Wedding of
       </p>
     </div>
+    <div class="flex flex-col items-center animate-fade-up-delay">
+        
+    </div>
     </div>
   </section>>
 </template>
