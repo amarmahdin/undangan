@@ -32,6 +32,8 @@ const floralStyle = {
     <div
       class="relative z-10 flex min-h-dvh w-full max-w-lg flex-col items-center justify-between px-6 py-10 text-center text-champagne sm:px-10"
     >
+    <div class="flex flex-col items-center animate-fade-up pt-4">
+        
     </div>
   </section>>
 </template>
