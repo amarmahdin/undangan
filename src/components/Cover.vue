@@ -37,5 +37,6 @@ const floralStyle = {
         The Wedding of
       </p>
     </div>
+    </div>
   </section>>
 </template>
