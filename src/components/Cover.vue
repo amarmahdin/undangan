@@ -33,7 +33,9 @@ const floralStyle = {
       class="relative z-10 flex min-h-dvh w-full max-w-lg flex-col items-center justify-between px-6 py-10 text-center text-champagne sm:px-10"
     >
     <div class="flex flex-col items-center animate-fade-up pt-4">
-        
+      <p class="font-display text-[11px] tracking-[0.45em] text-champagne/90 uppercase">
+        The Wedding of
+      </p>
     </div>
   </section>>
 </template>
