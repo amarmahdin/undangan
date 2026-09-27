@@ -23,7 +23,7 @@ const floralStyle = {
   > 
   <div
       class="pointer-events-none absolute inset-0 opacity-[0.16] mix-blend-soft-light"
-      
+      :style="floralStyle"
     />
   </section>>
 </template>
