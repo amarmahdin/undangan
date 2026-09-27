@@ -21,6 +21,9 @@ const floralStyle = {
     class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-burgundy-deep transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
     :aria-hidden="!visible"
   > 
-  
+  <div
+      class="pointer-events-none absolute inset-0 opacity-[0.16] mix-blend-soft-light"
+      
+    />
   </section>>
 </template>
