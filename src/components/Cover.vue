@@ -17,10 +17,10 @@ const floralStyle = {
 
 <template>  
   <section
-    :class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-burgundy-deep transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
+    :class="visible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'"
     class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-burgundy-deep transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]"
     :aria-hidden="!visible"
   > 
-
+  
   </section>>
 </template>
