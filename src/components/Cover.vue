@@ -65,9 +65,13 @@ const floralStyle = {
             Mohon maaf bila penulisan nama, gelar dan alamat tidak sesuai
           </p>
           <div class="mx-auto mt-3 h-px w-48 bg-champagne/35" />
-        
       </div>
-
+      <button
+          type="button"
+          
+        >
+          Buka Undangan
+        </button>
     </div>
     </div>
   </section>>
