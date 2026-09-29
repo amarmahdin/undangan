@@ -50,6 +50,11 @@ const floralStyle = {
       </p>
     </div>
 
+    <div
+        class="flex w-full flex-col items-center gap-5 pb-[max(0.5rem,env(safe-area-inset-bottom))] animate-fade-up-delay-2"
+      >
+
+    </div>
     </div>
   </section>>
 </template>
