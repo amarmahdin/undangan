@@ -45,7 +45,11 @@ const floralStyle = {
       <p class="mt-6 font-display text-sm tracking-[0.22em] text-champagne uppercase sm:text-base">
         Senin, 19 Oktober 2026
       </p>
+      <p class="mt-2 font-display text-sm tracking-[0.28em] text-champagne/85 uppercase">
+        Kota Baubau
+      </p>
     </div>
+
     </div>
   </section>>
 </template>
