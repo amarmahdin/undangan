@@ -55,8 +55,13 @@ const floralStyle = {
       >
       <div>
         <p class="font-display text-sm text-champagne/90">
-            Kepada Yth. Bapak / Ibu / Saudara(i)
-          </p>
+          Kepada Yth. Bapak / Ibu / Saudara(i)
+        </p>
+        <p class="mt-2 font-display text-xl text-champagne sm:text-2xl">
+          {{ guestName }}
+        </p>
+        <div class="mx-auto mt-4 h-px w-48 bg-champagne/35" />
+          
       </div>
 
     </div>
