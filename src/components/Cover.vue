@@ -53,6 +53,11 @@ const floralStyle = {
     <div
         class="flex w-full flex-col items-center gap-5 pb-[max(0.5rem,env(safe-area-inset-bottom))] animate-fade-up-delay-2"
       >
+      <div>
+        <p class="font-display text-sm text-champagne/90">
+            Kepada Yth. Bapak / Ibu / Saudara(i)
+          </p>
+      </div>
 
     </div>
     </div>
