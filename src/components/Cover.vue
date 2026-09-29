@@ -64,7 +64,8 @@ const floralStyle = {
           <p class="mx-auto mt-3 max-w-xs text-[11px] leading-relaxed text-champagne/70">
             Mohon maaf bila penulisan nama, gelar dan alamat tidak sesuai
           </p>
-          
+          <div class="mx-auto mt-3 h-px w-48 bg-champagne/35" />
+        
       </div>
 
     </div>
