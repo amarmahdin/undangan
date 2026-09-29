@@ -65,7 +65,7 @@ const floralStyle = {
             Mohon maaf bila penulisan nama, gelar dan alamat tidak sesuai
           </p>
           <div class="mx-auto mt-3 h-px w-48 bg-champagne/35" />
-      </div>
+      </div
       <button
           type="button"
           class="inline-flex min-h-12 min-w-[220px] cursor-pointer items-center justify-center rounded-full border border-champagne/50 bg-burgundy px-8 py-3 font-display text-sm tracking-[0.2em] text-champagne uppercase transition duration-200 hover:bg-burgundy-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-champagne active:scale-[0.98]"
