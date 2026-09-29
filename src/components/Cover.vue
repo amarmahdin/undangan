@@ -42,6 +42,9 @@ const floralStyle = {
         Euis <span class="text-champagne">&</span> Eka
       </h1>
       <Ornament class="mt-6 w-40 text-champagne/70" />
+      <p class="mt-6 font-display text-sm tracking-[0.22em] text-champagne uppercase sm:text-base">
+        Senin, 19 Oktober 2026
+      </p>
     </div>
     </div>
   </section>>
