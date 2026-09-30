@@ -75,5 +75,9 @@ const floralStyle = {
   }
 }
 
-
+@media (prefers-reduced-motion: reduce) {
+  .scroll-dot {
+    animation: none;
+  }
+}
 </style>
