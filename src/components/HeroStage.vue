@@ -15,5 +15,7 @@ const floralStyle = {
 </script>
 
 <template>
+  <div class="relative flex min-h-dvh w-full flex-col items-center justify-center overflow-hidden bg-burgundy-deep px-6 py-16 text-center text-champagne">
     
+  </div>
 </template>
