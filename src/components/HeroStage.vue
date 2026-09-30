@@ -23,5 +23,10 @@ const floralStyle = {
     <div
       class="pointer-events-none absolute inset-0 bg-gradient-to-b from-burgundy-deep/35 via-transparent to-burgundy-deep/65"
     />
+    <div class="relative z-10 flex w-full max-w-lg flex-col items-center">
+      
+
+      <slot />
+    </div>
   </div>
 </template>
