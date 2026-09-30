@@ -45,8 +45,14 @@ const floralStyle = {
       >
         {{ city }}
       </p>
-
-      
+      <div v-if="showScroll" class="mt-12 flex flex-col items-center gap-2">
+        <span
+          class="flex h-9 w-5 items-start justify-center rounded-full border border-champagne/45 pt-1.5"
+          aria-hidden="true"
+        >
+          <span class="scroll-dot h-1.5 w-1.5 rounded-full bg-champagne" />
+        </span>
+      </div>
       <slot />
     </div>
   </div>
