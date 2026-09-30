@@ -13,3 +13,7 @@ const floralStyle = {
   backgroundPosition: 'center',
 }
 </script>
+
+<template>
+    
+</template>
