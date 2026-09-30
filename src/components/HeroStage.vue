@@ -63,4 +63,17 @@ const floralStyle = {
   animation: scroll-bounce 1.6s ease-in-out infinite;
 }
 
+@keyframes scroll-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
+
 </style>
