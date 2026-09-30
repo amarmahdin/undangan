@@ -57,3 +57,10 @@ const floralStyle = {
     </div>
   </div>
 </template>
+
+<style scoped>
+.scroll-dot {
+  animation: scroll-bounce 1.6s ease-in-out infinite;
+}
+
+</style>
