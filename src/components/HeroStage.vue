@@ -39,7 +39,14 @@ const floralStyle = {
       >
         {{ dateLabel }}
       </p>
-        
+        <p
+        v-if="city"
+        class="mt-2 font-display text-sm tracking-[0.28em] text-champagne/85 uppercase"
+      >
+        {{ city }}
+      </p>
+
+      
       <slot />
     </div>
   </div>
