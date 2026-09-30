@@ -27,6 +27,10 @@ const floralStyle = {
        <p class="font-display text-[11px] tracking-[0.45em] text-champagne/90 uppercase">
         The Wedding of
       </p>
+      <h1 class="mt-6 font-script text-[clamp(3.5rem,13vw,5.75rem)] leading-none text-champagne">
+        Euis <span class="text-champagne">&</span> Eka
+      </h1>
+
       <slot />
     </div>
   </div>
