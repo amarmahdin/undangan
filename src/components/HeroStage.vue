@@ -20,5 +20,8 @@ const floralStyle = {
       class="pointer-events-none absolute inset-0 opacity-[0.16] mix-blend-soft-light"
       :style="floralStyle"
     />
+    <div
+      class="pointer-events-none absolute inset-0 bg-gradient-to-b from-burgundy-deep/35 via-transparent to-burgundy-deep/65"
+    />
   </div>
 </template>
