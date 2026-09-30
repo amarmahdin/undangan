@@ -33,7 +33,13 @@ const floralStyle = {
       
       <Ornament class="mt-6 w-40 text-champagne/70" />
 
-      
+      <p
+        v-if="dateLabel"
+        class="mt-6 font-display text-sm tracking-[0.22em] text-champagne uppercase sm:text-base"
+      >
+        {{ dateLabel }}
+      </p>
+        
       <slot />
     </div>
   </div>
