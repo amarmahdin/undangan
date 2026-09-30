@@ -6,4 +6,9 @@ defineProps({
   city: { type: String, default: '' },
   showScroll: { type: Boolean, default: false },
 })
+
+const floralStyle = {
+  backgroundImage: `url(${import.meta.env.BASE_URL}images/floral-line.jpg)`,
+  
+}
 </script>
