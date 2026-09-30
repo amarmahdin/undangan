@@ -30,7 +30,10 @@ const floralStyle = {
       <h1 class="mt-6 font-script text-[clamp(3.5rem,13vw,5.75rem)] leading-none text-champagne">
         Euis <span class="text-champagne">&</span> Eka
       </h1>
+      
+      <Ornament class="mt-6 w-40 text-champagne/70" />
 
+      
       <slot />
     </div>
   </div>
