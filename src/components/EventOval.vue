@@ -15,5 +15,8 @@ defineProps({
   
     <div class="event-floral pointer-events-none absolute inset-0" aria-hidden="true" />
 
+    <h4 class="relative z-[1] font-display text-xl tracking-[0.28em] text-burgundy uppercase">
+      
+    </h4>
   </article>
 </template>
