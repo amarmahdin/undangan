@@ -45,5 +45,12 @@ defineProps({
         {{ venueAddress }}
       </p>
     </div>
+
+    <a
+      :href="mapsLink"
+      target="_blank"
+       >
+      
+    </a>
   </article>
 </template>
