@@ -41,7 +41,9 @@ defineProps({
     <div class="relative z-[1] mt-8">
       <p class="font-display text-sm tracking-[0.12em] text-burgundy">Lokasi Acara</p>
       <p class="mt-2 font-display text-lg text-ink">{{ venueName }}</p>
-      
+      <p class="mx-auto mt-1 max-w-[220px] text-sm leading-relaxed text-muted">
+        
+      </p>
     </div>
   </article>
 </template>
