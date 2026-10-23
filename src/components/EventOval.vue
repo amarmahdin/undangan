@@ -39,6 +39,7 @@ defineProps({
     </p>
 
     <div class="relative z-[1] mt-8">
+      <p class="font-display text-sm tracking-[0.12em] text-burgundy">Lokasi Acara</p>
       
     </div>
   </article>
