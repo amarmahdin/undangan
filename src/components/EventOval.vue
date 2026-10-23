@@ -35,7 +35,7 @@ defineProps({
       >
         ◷
       </span>
-    
+      {{ time }}
     </p>
   </article>
 </template>
