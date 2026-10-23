@@ -3,5 +3,7 @@ defineProps({
   title: { type: String, required: true },
   dayName: { type: String, required: true },
   day: { type: String, required: true },
+  monthYear: { type: String, required: true },
+  time: { type: String, required: true },
 })
 </script>
