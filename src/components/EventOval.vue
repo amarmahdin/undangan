@@ -18,5 +18,8 @@ defineProps({
     <h4 class="relative z-[1] font-display text-xl tracking-[0.28em] text-burgundy uppercase">
       {{ title }}
     </h4>
+
+    <div class="relative z-[1] mx-auto mt-3 h-px w-16 bg-gold/60" />
+
   </article>
 </template>
