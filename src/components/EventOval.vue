@@ -24,13 +24,13 @@ defineProps({
     <p class="relative z-[1] mt-1 font-display text-6xl font-semibold leading-none text-burgundy">
       {{ day }}
     </p>
-     <p class="relative z-[1] mt-2 font-display text-sm tracking-[0.18em] text-ink uppercase">
+    <p class="relative z-[1] mt-2 font-display text-sm tracking-[0.18em] text-ink uppercase">
       {{ monthYear }}
     </p>
     
     <p class="relative z-[1] mt-6 inline-flex items-center gap-2 font-display text-sm text-burgundy">
       
-     
+    
     </p>
   </article>
 </template>
