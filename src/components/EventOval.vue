@@ -9,3 +9,9 @@ defineProps({
   mapsLink: { type: String, required: true },
 })
 </script>
+
+<template>
+  <article>
+    
+  </article>
+</template>
