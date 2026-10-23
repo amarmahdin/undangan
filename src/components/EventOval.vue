@@ -53,7 +53,9 @@ defineProps({
       class="relative z-[1] mt-8 inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-full bg-burgundy px-7 py-2.5 text-sm font-medium tracking-wide text-champagne shadow-[0_10px_24px_rgba(74,21,32,0.25)] transition duration-200 hover:bg-burgundy-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-burgundy"
       >
       <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+        />
       </svg>
     </a>
   </article>
