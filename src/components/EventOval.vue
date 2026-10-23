@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <article>
+  <article class="event-oval relative mx-auto flex w-full max-w-[340px] flex-col items-center px-8 py-12 text-center sm:px-10 sm:py-14">
     
   </article>
 </template>
