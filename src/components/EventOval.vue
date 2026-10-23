@@ -25,7 +25,7 @@ defineProps({
       {{ day }}
     </p>
      <p class="relative z-[1] mt-2 font-display text-sm tracking-[0.18em] text-ink uppercase">
-      
+      {{ monthYear }}
     </p>
   </article>
 </template>
