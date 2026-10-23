@@ -22,7 +22,7 @@ defineProps({
     <div class="relative z-[1] mx-auto mt-3 h-px w-16 bg-gold/60" />
     <p class="relative z-[1] mt-6 font-script text-3xl text-ink">{{ dayName }}</p>
     <p class="relative z-[1] mt-1 font-display text-6xl font-semibold leading-none text-burgundy">
-      
+      {{ day }}
     </p>
   </article>
 </template>
