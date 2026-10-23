@@ -29,7 +29,12 @@ defineProps({
     </p>
     
     <p class="relative z-[1] mt-6 inline-flex items-center gap-2 font-display text-sm text-burgundy">
-      
+      <span
+        class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-burgundy text-[10px] text-champagne"
+        aria-hidden="true"
+      >
+        ◷
+      </span>
     
     </p>
   </article>
