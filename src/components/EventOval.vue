@@ -5,5 +5,6 @@ defineProps({
   day: { type: String, required: true },
   monthYear: { type: String, required: true },
   time: { type: String, required: true },
+  venueAddress: { type: String, required: true },
 })
 </script>
