@@ -99,4 +99,8 @@ defineProps({
   top: 6%;
   left: 4%;
 }
+
+.event-floral::after {
+  
+}
 </style>
