@@ -94,4 +94,8 @@ defineProps({
   background: radial-gradient(circle at 35% 35%, #f3e6d4 0%, #c9a36a 35%, #6b2a36 70%, transparent 72%);
   opacity: 0.45;
 }
+
+.event-floral::before {
+ 
+}
 </style>
