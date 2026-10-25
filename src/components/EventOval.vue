@@ -69,5 +69,8 @@ defineProps({
    background:
     radial-gradient(ellipse at 50% 30%, rgba(255, 252, 247, 0.98), rgba(247, 243, 238, 0.96) 55%, rgba(243, 235, 224, 0.95));
   border: 10px solid rgba(255, 252, 247, 0.95);
+  box-shadow:
+    0 0 0 1px rgba(201, 163, 106, 0.35),
+    0 22px 50px rgba(61, 17, 24, 0.18);
 }
 </style>
