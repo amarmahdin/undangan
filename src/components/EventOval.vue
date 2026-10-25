@@ -75,6 +75,6 @@ defineProps({
 }
 
 .event-floral {
-  
+  border-radius: inherit;
 }
 </style>
