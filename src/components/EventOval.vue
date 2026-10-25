@@ -76,5 +76,9 @@ defineProps({
 
 .event-floral {
   border-radius: inherit;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(201, 163, 106, 0.2), transparent 28%),
+    radial-gradient(circle at 88% 16%, rgba(74, 21, 32, 0.1), transparent 26%),
+    
 }
 </style>
