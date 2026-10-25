@@ -73,4 +73,8 @@ defineProps({
     0 0 0 1px rgba(201, 163, 106, 0.35),
     0 22px 50px rgba(61, 17, 24, 0.18);
 }
+
+.event-floral {
+  
+}
 </style>
