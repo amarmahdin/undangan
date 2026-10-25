@@ -79,6 +79,7 @@ defineProps({
   background:
     radial-gradient(circle at 12% 18%, rgba(201, 163, 106, 0.2), transparent 28%),
     radial-gradient(circle at 88% 16%, rgba(74, 21, 32, 0.1), transparent 26%),
-    
+    radial-gradient(circle at 18% 86%, rgba(74, 21, 32, 0.12), transparent 30%),
+    radial-gradient(circle at 84% 88%, rgba(201, 163, 106, 0.18), transparent 28%)
 }
 </style>
