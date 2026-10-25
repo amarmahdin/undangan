@@ -96,6 +96,7 @@ defineProps({
 }
 
 .event-floral::before {
- 
+  top: 6%;
+  left: 4%;
 }
 </style>
