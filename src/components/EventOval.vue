@@ -86,6 +86,8 @@ defineProps({
 
 .event-floral::before,
 .event-floral::after {
+  content: "";
+  position: absolute;
   
 }
 </style>
