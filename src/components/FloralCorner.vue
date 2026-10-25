@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-<svg
+  <svg
     viewBox="0 0 200 240"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -13,12 +13,13 @@ defineProps({
     class="pointer-events-none h-auto w-full"
     :class="side === 'right' ? '-scale-x-100' : ''"
   >
+    <!-- soft watercolor blobs -->
+    <ellipse cx="48" cy="52" rx="42" ry="38" fill="#6b2a36" opacity="0.18" />    
+    <ellipse cx="88" cy="78" rx="36" ry="32" fill="#c9a36a" opacity="0.16" />    
+    <ellipse cx="56" cy="98" rx="28" ry="24" fill="#a67c3d" opacity="0.12" />
 
-  <ellipse cx="48" cy="52" rx="42" ry="38" fill="#6b2a36" opacity="0.18" />
-  <ellipse cx="88" cy="78" rx="36" ry="32" fill="#c9a36a" opacity="0.16" />
-  <ellipse cx="56" cy="98" rx="28" ry="24" fill="#a67c3d" opacity="0.12" />
-
-  <path
+    <!-- rose -->
+    <path
       d="M52 40c8-14 28-16 36-4 6 9 2 20-6 26-10 8-24 6-30-2-5-7-4-15 0-20Z"
       fill="#8b3a45"
       opacity="0.55"
@@ -34,12 +35,13 @@ defineProps({
       opacity="0.75"
     />
 
-     <path
+    <!-- peony -->
+    <path
       d="M96 62c12-10 30-6 34 8 3 12-4 24-16 28-14 5-28-2-32-14-3-10 3-18 14-22Z"
       fill="#4a1520"
       opacity="0.5"
     />
-     <path
+    <path
       d="M102 70c8-7 20-4 22 5 2 8-3 16-11 18-9 3-18-2-20-10-2-6 2-11 9-13Z"
       fill="#6b2a36"
       opacity="0.65"
@@ -67,7 +69,7 @@ defineProps({
     <circle cx="128" cy="118" r="4" fill="#8b3a45" opacity="0.4" />
     <circle cx="22" cy="118" r="3.5" fill="#c9a36a" opacity="0.4" />
 
-     <!-- fine stem lines -->
+    <!-- fine stem lines -->
     <path
       d="M48 118c8 22 6 48-4 72"
       stroke="#6e4d52"
