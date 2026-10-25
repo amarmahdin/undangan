@@ -61,3 +61,9 @@ defineProps({
     </a>
   </article>
 </template>
+
+<style scoped>
+.event-oval {
+  
+}
+</style>
