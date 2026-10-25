@@ -66,5 +66,8 @@ defineProps({
 .event-oval {
   aspect-ratio: 3 / 4.15;
   border-radius: 50% / 42%;
+   background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 252, 247, 0.98), rgba(247, 243, 238, 0.96) 55%, rgba(243, 235, 224, 0.95));
+  
 }
 </style>
