@@ -64,6 +64,7 @@ defineProps({
 
 <style scoped>
 .event-oval {
-  
+  aspect-ratio: 3 / 4.15;
+  border-radius: 50% / 42%;
 }
 </style>
