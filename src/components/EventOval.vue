@@ -101,6 +101,7 @@ defineProps({
 }
 
 .event-floral::after {
-  
+  right: 4%;
+  bottom: 8%;
 }
 </style>
