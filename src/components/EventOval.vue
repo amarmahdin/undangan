@@ -90,6 +90,8 @@ defineProps({
   position: absolute;
   width: 72px;
   height: 72px;
-  
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 35%, #f3e6d4 0%, #c9a36a 35%, #6b2a36 70%, transparent 72%);
+  opacity: 0.45;
 }
 </style>
