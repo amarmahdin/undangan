@@ -15,4 +15,7 @@ let startX = 0
 let startY = 0
 let locked = null
 let step = 0
+let suppressClickUntil = 0
+let autoTimer
+
 </script>
