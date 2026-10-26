@@ -8,4 +8,7 @@ const props = defineProps({
 
 const viewport = ref(null)
 const index = ref(0)
+const dragX = ref(0)
+const dragging = ref(false)
+
 </script>
