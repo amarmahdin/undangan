@@ -18,4 +18,7 @@ let step = 0
 let suppressClickUntil = 0
 let autoTimer
 
+
+const AUTO_MS = 5000
+const EASE = 'cubic-bezier(0.16, 1, 0.3, 1)'
 </script>
