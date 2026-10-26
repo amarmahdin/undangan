@@ -13,4 +13,6 @@ const dragging = ref(false)
 
 let startX = 0
 let startY = 0
+let locked = null
+let step = 0
 </script>
