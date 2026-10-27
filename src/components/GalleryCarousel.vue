@@ -75,6 +75,8 @@ function measure() {
   if (!viewport.value) return
   const card = viewport.value.querySelector('[data-card]')
   if (card) {
+    const styles = window.getComputedStyle(card)
+    
     }
 }
 </script>
