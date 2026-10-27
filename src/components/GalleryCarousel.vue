@@ -34,6 +34,8 @@ function cardVisual(i) {
     return {
       transform: 'translateY(0) scale(1)',
       opacity: 1,
+      filter: 'brightness(1)',
+      zIndex: 3,
     }
   }
 }
