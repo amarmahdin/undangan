@@ -23,7 +23,8 @@ const total = computed(() => props.photos.length)
 const trackStyle = computed(() => {
   const base = -index.value * step
   return {
-    
+    transform: `translate3d(${base + dragX.value}px, 0, 0)`,
+    transition: dragging.value ? 'none' : `transform 0.85s ${EASE}`,
   }
 })
 </script>
