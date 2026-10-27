@@ -22,6 +22,8 @@ const total = computed(() => props.photos.length)
 
 const trackStyle = computed(() => {
   const base = -index.value * step
-  
+  return {
+    
+  }
 })
 </script>
