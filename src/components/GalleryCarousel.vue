@@ -40,7 +40,8 @@ function cardVisual(i) {
   }
   if (d === 1) {
     return {
-      
+      transform: 'translateY(10px) scale(0.94)',
+      opacity: 0.72,
     }
   }
 }
