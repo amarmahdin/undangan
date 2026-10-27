@@ -56,6 +56,7 @@ function cardVisual(i) {
 
 function cardStyle(i) {
   const visual = cardVisual(i)
-  
+  return {
+   }
 }
 </script>
