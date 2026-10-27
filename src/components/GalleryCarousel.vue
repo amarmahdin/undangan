@@ -42,6 +42,8 @@ function cardVisual(i) {
     return {
       transform: 'translateY(10px) scale(0.94)',
       opacity: 0.72,
+      filter: 'brightness(0.88)',
+      zIndex: 2,
     }
   }
 }
