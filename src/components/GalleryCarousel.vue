@@ -74,6 +74,7 @@ function lockPageScrollX() {
 function measure() {
   if (!viewport.value) return
   const card = viewport.value.querySelector('[data-card]')
-  
+  if (card) {
+    }
 }
 </script>
