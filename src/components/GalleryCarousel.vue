@@ -27,4 +27,9 @@ const trackStyle = computed(() => {
     transition: dragging.value ? 'none' : `transform 0.85s ${EASE}`,
   }
 })
+
+function cardVisual(i) {
+  const d = Math.abs(i - index.value)
+  
+}
 </script>
