@@ -18,4 +18,5 @@ let step = 0
 let suppressClickUntil = 0
 let autoTimer
 
+const total = computed(() => props.photos.length)
 </script>
