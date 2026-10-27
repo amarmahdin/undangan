@@ -75,8 +75,9 @@ function measure() {
   if (!viewport.value) return
   const card = viewport.value.querySelector('[data-card]')
   if (card) {
+     const gap = Number.parseFloat(styles.marginRight) || 14
     const styles = window.getComputedStyle(card)
-    
+    step = card.getBoundingClientRect().width + gap
     }
 }
 </script>
