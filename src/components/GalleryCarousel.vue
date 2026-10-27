@@ -30,6 +30,10 @@ const trackStyle = computed(() => {
 
 function cardVisual(i) {
   const d = Math.abs(i - index.value)
-  
+  if (d === 0) {
+    return {
+      
+    }
+  }
 }
 </script>
