@@ -32,7 +32,8 @@ function cardVisual(i) {
   const d = Math.abs(i - index.value)
   if (d === 0) {
     return {
-      
+      transform: 'translateY(0) scale(1)',
+      opacity: 1,
     }
   }
 }
