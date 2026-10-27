@@ -46,5 +46,8 @@ function cardVisual(i) {
       zIndex: 2,
     }
   }
+  return {
+    
+  }
 }
 </script>
