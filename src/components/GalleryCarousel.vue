@@ -67,6 +67,7 @@ function cardStyle(i) {
 function lockPageScrollX() {
   if (typeof window === 'undefined') return
   if (window.scrollX !== 0) window.scrollTo(0, window.scrollY)
-  
+  document.documentElement.scrollLeft = 0
+  document.body.scrollLeft = 0
 }
 </script>
