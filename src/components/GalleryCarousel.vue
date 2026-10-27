@@ -53,4 +53,9 @@ function cardVisual(i) {
     zIndex: 1,
   }
 }
+
+function cardStyle(i) {
+  const visual = cardVisual(i)
+  
+}
 </script>
