@@ -55,8 +55,12 @@ function cardVisual(i) {
 }
 
 function cardStyle(i) {
-  const visual = cardVisual(i)
+    const visual = cardVisual(i)
   return {
-   }
+    ...visual,
+    transition: dragging.value
+      ? 'none'
+      : `transform 0.85s ${EASE}, opacity 0.7s ${EASE}, filter 0.7s ${EASE}`,
+   } 
 }
 </script>
