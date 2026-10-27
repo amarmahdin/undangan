@@ -80,4 +80,8 @@ function measure() {
     step = card.getBoundingClientRect().width + gap
     }
 }
+
+function go(to) {
+
+}
 </script>
