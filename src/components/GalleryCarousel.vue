@@ -47,7 +47,8 @@ function cardVisual(i) {
     }
   }
   return {
-    
+    transform: 'translateY(18px) scale(0.88)',
+    opacity: 0.45,
   }
 }
 </script>
