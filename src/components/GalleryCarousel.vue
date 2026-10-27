@@ -82,6 +82,6 @@ function measure() {
 }
 
 function go(to) {
-
+  if (!total.value) return
 }
 </script>
