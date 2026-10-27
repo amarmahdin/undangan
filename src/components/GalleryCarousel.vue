@@ -38,5 +38,10 @@ function cardVisual(i) {
       zIndex: 3,
     }
   }
+  if (d === 1) {
+    return {
+      
+    }
+  }
 }
 </script>
