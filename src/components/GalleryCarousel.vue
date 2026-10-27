@@ -19,4 +19,9 @@ let suppressClickUntil = 0
 let autoTimer
 
 const total = computed(() => props.photos.length)
+
+const trackStyle = computed(() => {
+  const base = -index.value * step
+  
+})
 </script>
