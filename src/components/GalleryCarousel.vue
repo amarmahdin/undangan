@@ -63,4 +63,8 @@ function cardStyle(i) {
       : `transform 0.85s ${EASE}, opacity 0.7s ${EASE}, filter 0.7s ${EASE}`,
    } 
 }
+
+function lockPageScrollX() {
+  
+}
 </script>
