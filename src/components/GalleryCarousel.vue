@@ -97,7 +97,8 @@ function prev() {
 
 function stopAuto() {
   if (autoTimer) {
-   
+   window.clearInterval(autoTimer)
+    autoTimer = undefined
   }
 }
 </script>
