@@ -91,4 +91,7 @@ function next() {
   go(index.value + 1)
 }
 
+function prev() {
+  
+}
 </script>
