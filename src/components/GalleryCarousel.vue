@@ -107,7 +107,7 @@ function startAuto() {
   if (total.value < 2) return
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
   autoTimer = window.setInterval(() => {
-    
+    if (!dragging.value) next()
   }, )
 }
 </script>
