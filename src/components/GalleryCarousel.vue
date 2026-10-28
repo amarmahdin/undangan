@@ -83,7 +83,12 @@ function measure() {
 
 function go(to) {
   if (!total.value) return
-    index.value = ((to % total.value) + total.value) % total.value
+  index.value = ((to % total.value) + total.value) % total.value
   lockPageScrollX()
 }
+
+function next() {
+  
+}
+
 </script>
