@@ -101,4 +101,9 @@ function stopAuto() {
     autoTimer = undefined
   }
 }
+
+function startAuto() {
+  stopAuto()
+  
+}
 </script>
