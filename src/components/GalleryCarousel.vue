@@ -94,4 +94,8 @@ function next() {
 function prev() {
   go(index.value - 1)
 }
+
+function stopAuto() {
+  
+}
 </script>
