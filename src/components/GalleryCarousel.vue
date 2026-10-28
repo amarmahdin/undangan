@@ -96,6 +96,8 @@ function prev() {
 }
 
 function stopAuto() {
-  
+  if (autoTimer) {
+   
+  }
 }
 </script>
