@@ -88,7 +88,7 @@ function go(to) {
 }
 
 function next() {
-  
+  go(index.value + 1)
 }
 
 </script>
