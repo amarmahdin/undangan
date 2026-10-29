@@ -116,5 +116,7 @@ function onPointerDown(e) {
   stopAuto()
   dragging.value = true
   locked = null
+  startX = e.clientX
+  startY = e.clientY
 }
 </script>
