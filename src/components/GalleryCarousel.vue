@@ -110,4 +110,8 @@ function startAuto() {
     if (!dragging.value) next()
   }, AUTO_MS)
 }
+
+function onPointerDown(e) {
+  
+}
 </script>
