@@ -146,4 +146,9 @@ function onPointerMove(e) {
   const atEnd = index.value === total.value - 1 && dx < 0
   dragX.value = atStart || atEnd ? dx * 0.35 : dx
 }
+
+function onPointerUp() {
+  if (viewport.value) viewport.value.style.touchAction = 'pan-y'
+  
+}
 </script>
