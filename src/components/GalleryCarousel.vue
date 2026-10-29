@@ -134,6 +134,8 @@ function onPointerMove(e) {
   if (locked === 'y') {
     dragging.value = false
     dragX.value = 0
+    startAuto()
+    return
   }
 }
 </script>
