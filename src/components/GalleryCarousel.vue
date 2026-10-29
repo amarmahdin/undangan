@@ -150,7 +150,8 @@ function onPointerMove(e) {
 function onPointerUp() {
   if (viewport.value) viewport.value.style.touchAction = 'pan-y'
   if (!dragging.value && dragX.value === 0 && locked !== 'x') {
-    
+    locked = null
+    lockPageScrollX()
   }
 }
 </script>
