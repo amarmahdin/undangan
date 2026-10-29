@@ -131,11 +131,15 @@ function onPointerMove(e) {
    if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return
     locked = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y'
   }
+  
   if (locked === 'y') {
     dragging.value = false
     dragX.value = 0
     startAuto()
     return
   }
+
+  if (viewport.value) viewport.value.style.touchAction = 'none'
+  e.preventDefault()
 }
 </script>
