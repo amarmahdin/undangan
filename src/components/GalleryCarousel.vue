@@ -112,6 +112,7 @@ function startAuto() {
 }
 
 function onPointerDown(e) {
-  
+  measure()
+  stopAuto()
 }
 </script>
