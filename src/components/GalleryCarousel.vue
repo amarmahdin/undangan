@@ -141,5 +141,8 @@ function onPointerMove(e) {
 
   if (viewport.value) viewport.value.style.touchAction = 'none'
   e.preventDefault()
+  lockPageScrollX()
+  const atStart = index.value === 0 && dx > 0
+  
 }
 </script>
