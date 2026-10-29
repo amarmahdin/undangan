@@ -143,6 +143,7 @@ function onPointerMove(e) {
   e.preventDefault()
   lockPageScrollX()
   const atStart = index.value === 0 && dx > 0
-  
+  const atEnd = index.value === total.value - 1 && dx < 0
+  dragX.value = atStart || atEnd ? dx * 0.35 : dx
 }
 </script>
