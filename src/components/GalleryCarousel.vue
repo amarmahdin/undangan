@@ -155,5 +155,7 @@ function onPointerUp() {
     startAuto()
     return
   }
+  const threshold = Math.max(36, step * 0.18)
+  const dx = dragX.value
 }
 </script>
