@@ -122,4 +122,8 @@ function onPointerDown(e) {
   lockPageScrollX()
   e.currentTarget.setPointerCapture?.(e.pointerId)
 }
+
+function onPointerMove(e) {
+  
+}
 </script>
