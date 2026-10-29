@@ -131,5 +131,8 @@ function onPointerMove(e) {
    if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return
     locked = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y'
   }
+  if (locked === 'y') {
+    
+  }
 }
 </script>
