@@ -128,7 +128,8 @@ function onPointerMove(e) {
   const dx = e.clientX - startX
   const dy = e.clientY - startY
   if (!locked) {
-   
+   if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return
+    locked = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y'
   }
 }
 </script>
