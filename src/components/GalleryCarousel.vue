@@ -152,6 +152,8 @@ function onPointerUp() {
   if (!dragging.value && dragX.value === 0 && locked !== 'x') {
     locked = null
     lockPageScrollX()
+    startAuto()
+    return
   }
 }
 </script>
