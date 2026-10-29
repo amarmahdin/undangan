@@ -132,7 +132,8 @@ function onPointerMove(e) {
     locked = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y'
   }
   if (locked === 'y') {
-    
+    dragging.value = false
+    dragX.value = 0
   }
 }
 </script>
