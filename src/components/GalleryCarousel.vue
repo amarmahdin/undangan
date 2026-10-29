@@ -127,5 +127,8 @@ function onPointerMove(e) {
   if (!dragging.value) return
   const dx = e.clientX - startX
   const dy = e.clientY - startY
+  if (!locked) {
+   
+  }
 }
 </script>
