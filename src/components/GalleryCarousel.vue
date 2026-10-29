@@ -124,6 +124,6 @@ function onPointerDown(e) {
 }
 
 function onPointerMove(e) {
-  
+  if (!dragging.value) return
 }
 </script>
