@@ -114,5 +114,7 @@ function startAuto() {
 function onPointerDown(e) {
   measure()
   stopAuto()
+  dragging.value = true
+  locked = null
 }
 </script>
