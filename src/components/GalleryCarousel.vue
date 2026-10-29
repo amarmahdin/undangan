@@ -118,5 +118,8 @@ function onPointerDown(e) {
   locked = null
   startX = e.clientX
   startY = e.clientY
+  dragX.value = 0
+  lockPageScrollX()
+  e.currentTarget.setPointerCapture?.(e.pointerId)
 }
 </script>
