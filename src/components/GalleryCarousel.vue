@@ -171,5 +171,6 @@ function onPointerUp() {
 function selectCard(i) {
   if (Date.now() < suppressClickUntil) return
   go(i)
+  startAuto()
 }
 </script>
