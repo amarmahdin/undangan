@@ -196,5 +196,6 @@ onMounted(async () => {
   startAuto()
   window.addEventListener('resize', measure)
   window.addEventListener('scroll', lockPageScrollX, { passive: true })
+  const el = viewport.value
 })
 </script>
