@@ -205,5 +205,6 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', measure)
   window.removeEventListener('scroll', lockPageScrollX)
   const el = viewport.value
+  if (el) el.removeEventListener('pointermove', onPointerMove)
 })
 </script>
