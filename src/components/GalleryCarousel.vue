@@ -167,4 +167,8 @@ function onPointerUp() {
   lockPageScrollX()
   startAuto()
 }
+
+function selectCard(i) {
+  
+}
 </script>
