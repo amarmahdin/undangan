@@ -184,5 +184,9 @@ function onKey(e) {
     next()
     startAuto()
   }
+  if (e.key === 'ArrowLeft') {
+    prev()
+    startAuto()
+  }
 }
 </script>
