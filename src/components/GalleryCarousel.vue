@@ -203,5 +203,7 @@ onMounted(async () => {
 onBeforeUnmount(() => {
   stopAuto()
   window.removeEventListener('resize', measure)
+  window.removeEventListener('scroll', lockPageScrollX)
+  const el = viewport.value
 })
 </script>
