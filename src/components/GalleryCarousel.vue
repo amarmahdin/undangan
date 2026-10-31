@@ -191,6 +191,7 @@ function onKey(e) {
 }
 
 onMounted(async () => {
-
+  await nextTick()
+  measure()
 })
 </script>
