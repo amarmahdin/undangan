@@ -189,4 +189,8 @@ function onKey(e) {
     startAuto()
   }
 }
+
+onMounted(async () => {
+
+})
 </script>
