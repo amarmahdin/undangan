@@ -169,6 +169,6 @@ function onPointerUp() {
 }
 
 function selectCard(i) {
-  
+  if (Date.now() < suppressClickUntil) return
 }
 </script>
