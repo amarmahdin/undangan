@@ -178,4 +178,8 @@ function onDot(i) {
   go(i)
   startAuto()
 }
+
+function onKey(e) {
+  
+}
 </script>
