@@ -159,5 +159,7 @@ function onPointerUp() {
   const dx = dragX.value
   const moved = Math.abs(dx) > 8
   dragging.value = false
+  dragX.value = 0
+  locked = null
 }
 </script>
