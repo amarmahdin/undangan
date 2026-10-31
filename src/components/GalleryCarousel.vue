@@ -161,5 +161,7 @@ function onPointerUp() {
   dragging.value = false
   dragX.value = 0
   locked = null
+  if (dx < -threshold) next()
+  else if (dx > threshold) prev()
 }
 </script>
