@@ -193,5 +193,8 @@ function onKey(e) {
 onMounted(async () => {
   await nextTick()
   measure()
+  startAuto()
+  window.addEventListener('resize', measure)
+  
 })
 </script>
