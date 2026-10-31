@@ -157,5 +157,7 @@ function onPointerUp() {
   }
   const threshold = Math.max(36, step * 0.18)
   const dx = dragX.value
+  const moved = Math.abs(dx) > 8
+  dragging.value = false
 }
 </script>
