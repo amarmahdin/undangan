@@ -195,6 +195,6 @@ onMounted(async () => {
   measure()
   startAuto()
   window.addEventListener('resize', measure)
-  
+  window.addEventListener('scroll', lockPageScrollX, { passive: true })
 })
 </script>
