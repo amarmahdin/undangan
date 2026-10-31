@@ -181,7 +181,8 @@ function onDot(i) {
 
 function onKey(e) {
   if (e.key === 'ArrowRight') {
-    
+    next()
+    startAuto()
   }
 }
 </script>
