@@ -180,6 +180,8 @@ function onDot(i) {
 }
 
 function onKey(e) {
-  
+  if (e.key === 'ArrowRight') {
+    
+  }
 }
 </script>
