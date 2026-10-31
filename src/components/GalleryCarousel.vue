@@ -199,4 +199,8 @@ onMounted(async () => {
   const el = viewport.value
   if (el) el.addEventListener('pointermove', onPointerMove, { passive: false })
 })
+
+onBeforeUnmount(() => {
+  
+})
 </script>
