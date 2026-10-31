@@ -175,6 +175,7 @@ function selectCard(i) {
 }
 
 function onDot(i) {
-  
+  go(i)
+  startAuto()
 }
 </script>
