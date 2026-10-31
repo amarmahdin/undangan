@@ -201,6 +201,7 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
-  
+  stopAuto()
+  window.removeEventListener('resize', measure)
 })
 </script>
