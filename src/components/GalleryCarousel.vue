@@ -165,5 +165,6 @@ function onPointerUp() {
   else if (dx > threshold) prev()
   if (moved) suppressClickUntil = Date.now() + 280
   lockPageScrollX()
+  startAuto()
 }
 </script>
