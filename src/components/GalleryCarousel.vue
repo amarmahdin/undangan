@@ -238,5 +238,10 @@ onBeforeUnmount(() => {
       <div
         class="absolute inset-0 bg-gradient-to-t from-burgundy-deep/55 via-transparent to-burgundy-deep/30"
       />
+
+      <div class="relative flex min-h-[85dvh] w-full flex-col justify-end gap-6 overflow-x-clip py-12 pb-16 sm:min-h-[78dvh] sm:flex-row sm:items-end sm:justify-between sm:gap-6 sm:py-16"
+    >
+
+      </div>
   </section>
 </template>
