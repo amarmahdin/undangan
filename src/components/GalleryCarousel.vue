@@ -231,5 +231,6 @@ onBeforeUnmount(() => {
         draggable="false"
       />
     </div>
+    <div class="absolute inset-0 bg-burgundy-deep/45" />
   </section>
 </template>
