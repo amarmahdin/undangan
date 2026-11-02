@@ -249,6 +249,9 @@ onBeforeUnmount(() => {
           Galeri · {{ String(index + 1).padStart(2, '0') }} /
           {{ String(total).padStart(2, '0') }}
         </p>
+        <h3 class="mt-3 font-script text-[clamp(2.75rem,10vw,4.5rem)] leading-none text-champagne">
+          Euis &amp; Eka
+        </h3>
       </div>
     </div>
   </section>
