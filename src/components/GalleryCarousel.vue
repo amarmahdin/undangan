@@ -246,7 +246,8 @@ onBeforeUnmount(() => {
           :key="index"
           class="gallery-counter font-display text-xs tracking-[0.3em] text-gold uppercase"
         >
-          
+          Galeri · {{ String(index + 1).padStart(2, '0') }} /
+          {{ String(total).padStart(2, '0') }}
         </p>
       </div>
     </div>
