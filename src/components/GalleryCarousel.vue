@@ -253,6 +253,12 @@ onBeforeUnmount(() => {
           Euis &amp; Eka
         </h3>
       </div>
+
+      <div
+      class="relative flex min-h-[85dvh] w-full flex-col justify-end gap-6 overflow-x-clip py-12 pb-16 sm:min-h-[78dvh] sm:flex-row sm:items-end sm:justify-between sm:gap-6 sm:py-16"
+      >
+
+      </div>
     </div>
   </section>
 </template>
