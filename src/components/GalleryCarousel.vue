@@ -232,5 +232,8 @@ onBeforeUnmount(() => {
       />
     </div>
     <div class="absolute inset-0 bg-burgundy-deep/45" />
+    <div
+        class="absolute inset-0 bg-gradient-to-r from-burgundy-deep/70 via-burgundy-deep/25 to-transparent"
+      />
   </section>
 </template>
