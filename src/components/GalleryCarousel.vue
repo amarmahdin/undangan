@@ -226,7 +226,7 @@ onBeforeUnmount(() => {
         class="gallery-bg absolute inset-0 h-full w-full object-cover"
         :class="[
           i === index ? 'is-active' : '',
-          
+          photo.wide ? 'object-center' : 'object-[center_20%]',
         ]"
       />
     </div>
