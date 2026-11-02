@@ -222,7 +222,12 @@ onBeforeUnmount(() => {
         v-for="(photo, i) in photos"
         :key="`bg-${photo.src}`"
         :src="asset(photo.src)"
-        
+        alt=""
+        class="gallery-bg absolute inset-0 h-full w-full object-cover"
+        :class="[
+          i === index ? 'is-active' : '',
+          
+        ]"
       />
     </div>
   </section>
