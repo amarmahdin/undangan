@@ -208,3 +208,9 @@ onBeforeUnmount(() => {
   if (el) el.removeEventListener('pointermove', onPointerMove)
 })
 </script>
+
+<template>
+  <section>
+    
+  </section>
+</template>
