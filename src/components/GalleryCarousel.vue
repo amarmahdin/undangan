@@ -228,6 +228,7 @@ onBeforeUnmount(() => {
           i === index ? 'is-active' : '',
           photo.wide ? 'object-center' : 'object-[center_20%]',
         ]"
+        draggable="false"
       />
     </div>
   </section>
