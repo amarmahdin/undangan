@@ -211,6 +211,8 @@ onBeforeUnmount(() => {
 
 <template>
   <section>
+    class="gallery-carousel relative isolate w-full max-w-[100vw] overflow-x-clip select-none outline-none"
+    tabindex="0"
     
   </section>
 </template>
