@@ -215,6 +215,6 @@ onBeforeUnmount(() => {
     tabindex="0"
     aria-roledescription="carousel"
     aria-label="Galeri foto undangan"
-    
+     @keydown="onKey"
   </section>
 </template>
