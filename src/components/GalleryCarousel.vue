@@ -211,12 +211,14 @@ onBeforeUnmount(() => {
 
 <template>
   <section 
-  class="gallery-carousel relative isolate w-full max-w-[100vw] overflow-x-clip select-none outline-none"
+    class="gallery-carousel relative isolate w-full max-w-[100vw] overflow-x-clip select-none outline-none"
     tabindex="0"
     aria-roledescription="carousel"
     aria-label="Galeri foto undangan"
     @keydown="onKey"
   >
-    
+    <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
+      
+    </div>
   </section>
 </template>
