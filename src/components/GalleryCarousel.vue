@@ -254,7 +254,11 @@ onBeforeUnmount(() => {
         </h3>
       </div>
 
-      
+      <div class="relative w-full min-w-0 overflow-x-clip sm:w-[58%] lg:w-[55%] sm:pb-4">
+        <div>
+        
+        </div>
+      </div>
     </div>
   </section>
 </template>
