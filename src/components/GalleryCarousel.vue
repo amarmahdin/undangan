@@ -276,8 +276,12 @@ onBeforeUnmount(() => {
             :aria-hidden="i !== index"
             :style="{ zIndex: cardVisual(i).zIndex }"
           >
-          <button>
-            
+          <button
+          type="button"
+          class="block h-full w-full cursor-pointer text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
+          :aria-label="`Lihat foto ${i + 1}`"
+          >
+
           </button>
           </article>
         </div>
