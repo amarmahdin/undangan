@@ -274,11 +274,11 @@ onBeforeUnmount(() => {
             class="h-full w-[42vw] max-w-[200px] shrink-0 sm:w-[170px] lg:w-[190px]"
             :class="i < photos.length - 1 ? 'mr-3.5' : 'mr-0'"
             :aria-hidden="i !== index"
-              :style="{ zIndex: cardVisual(i).zIndex }"
-            
-              
+            :style="{ zIndex: cardVisual(i).zIndex }"
           >
-
+          <button>
+            
+          </button>
           </article>
         </div>
         </div>
