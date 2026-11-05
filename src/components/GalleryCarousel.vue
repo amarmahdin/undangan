@@ -267,6 +267,12 @@ onBeforeUnmount(() => {
             class="absolute left-0 top-0 flex h-full pl-[22vw] will-change-transform sm:pl-0"
             :style="trackStyle"
         >
+          <article
+            v-for="(photo, i) in photos"
+            :key="photo.src"
+          >
+
+          </article>
         </div>
         </div>
       </div>
