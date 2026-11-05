@@ -263,7 +263,11 @@ onBeforeUnmount(() => {
           @pointerup="onPointerUp"
           @pointercancel="onPointerUp"
         >
-        
+        <div
+            class="absolute left-0 top-0 flex h-full pl-[22vw] will-change-transform sm:pl-0"
+            :style="trackStyle"
+        >
+        </div>
         </div>
       </div>
     </div>
