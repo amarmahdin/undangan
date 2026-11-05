@@ -270,6 +270,7 @@ onBeforeUnmount(() => {
           <article
             v-for="(photo, i) in photos"
             :key="photo.src"
+            data-card
           >
 
           </article>
