@@ -256,8 +256,10 @@ onBeforeUnmount(() => {
 
       <div class="relative w-full min-w-0 overflow-x-clip sm:w-[58%] lg:w-[55%] sm:pb-4">
         <div
-        ref="viewport"
+          ref="viewport"
           class="relative h-[min(56vw,320px)] w-full cursor-grab overflow-hidden active:cursor-grabbing sm:h-[340px] lg:h-[380px]"
+          style="touch-action: pan-y"
+          @pointerdown="onPointerDown"
           
         >
         
