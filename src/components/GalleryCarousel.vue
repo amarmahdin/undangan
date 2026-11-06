@@ -289,6 +289,7 @@ onBeforeUnmount(() => {
           >
           <img
           :src="asset(photo.src)"
+          :alt="photo.alt"
           >
           </div>
           </button>
