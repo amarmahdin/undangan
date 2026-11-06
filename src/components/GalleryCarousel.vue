@@ -287,7 +287,9 @@ onBeforeUnmount(() => {
             :class="i === index ? 'is-active' : ''"
             :style="cardStyle(i)"
           >
-
+          <img
+          :src="asset(photo.src)"
+          >
           </div>
           </button>
           </article>
