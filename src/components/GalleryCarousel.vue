@@ -297,6 +297,8 @@ onBeforeUnmount(() => {
           ]"
           width="1066"
           height="1600"
+          draggable="false"
+                    loading="lazy"
           >
           </div>
           </button>
