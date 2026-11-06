@@ -300,8 +300,11 @@ onBeforeUnmount(() => {
           draggable="false"
                     loading="lazy"
           >
-          <div>
-            
+          <div
+          class="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/95 text-xs font-semibold text-burgundy shadow"
+                    aria-hidden="true"
+          >
+
           </div>
           </div>
           </button>
