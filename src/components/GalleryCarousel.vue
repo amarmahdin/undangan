@@ -293,6 +293,7 @@ onBeforeUnmount(() => {
           class="gallery-card-img pointer-events-none h-full w-full object-cover"
                     :class="[
                       i === index ? 'is-active' : '',
+                      photo.wide ? 'object-center' : 'object-[center_18%]',
           ]"
           >
           </div>
