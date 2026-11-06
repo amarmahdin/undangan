@@ -306,8 +306,11 @@ onBeforeUnmount(() => {
           >
            {{ i + 1 }}'
           </div>
-          <div>
-            
+          <div
+          class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
+                  
+          >
+
           </div>
           </div>
           </button>
