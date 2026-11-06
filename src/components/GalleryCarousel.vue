@@ -304,7 +304,7 @@ onBeforeUnmount(() => {
           class="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/95 text-xs font-semibold text-burgundy shadow"
                     aria-hidden="true"
           >
-
+           {{ i + 1 }}'
           </div>
           </div>
           </button>
