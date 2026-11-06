@@ -285,6 +285,7 @@ onBeforeUnmount(() => {
           <div
             class="gallery-card relative h-full overflow-hidden rounded-[1.35rem]"
             :class="i === index ? 'is-active' : ''"
+            :style="cardStyle(i)"
           >
 
           </div>
