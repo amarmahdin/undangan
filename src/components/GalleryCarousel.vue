@@ -290,6 +290,10 @@ onBeforeUnmount(() => {
           <img
           :src="asset(photo.src)"
           :alt="photo.alt"
+          class="gallery-card-img pointer-events-none h-full w-full object-cover"
+                    :class="[
+                      i === index ? 'is-active' : '',
+          ]"
           >
           </div>
           </button>
