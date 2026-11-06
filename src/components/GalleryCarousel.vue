@@ -282,7 +282,12 @@ onBeforeUnmount(() => {
           :aria-label="`Lihat foto ${i + 1}`"
           @click="selectCard(i)"
           >
+          <div
+            class="gallery-card relative h-full overflow-hidden rounded-[1.35rem]"
+            :class="i === index ? 'is-active' : ''"
+          >
 
+          </div>
           </button>
           </article>
         </div>
