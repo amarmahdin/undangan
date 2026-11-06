@@ -295,6 +295,8 @@ onBeforeUnmount(() => {
                       i === index ? 'is-active' : '',
                       photo.wide ? 'object-center' : 'object-[center_18%]',
           ]"
+          width="1066"
+          height="1600"
           >
           </div>
           </button>
