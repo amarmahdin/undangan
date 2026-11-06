@@ -312,7 +312,7 @@ onBeforeUnmount(() => {
           >
           <p class="truncate font-display text-[10px] tracking-[0.16em] text-white/80 uppercase">
                       >
-
+Foto {{ i + 1 }}
           </p>
           </div>
           </div>
