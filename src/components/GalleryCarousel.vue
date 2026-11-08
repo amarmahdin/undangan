@@ -341,5 +341,7 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
-
+.gallery-bg {
+  opacity: 0;
+}
 </style>
