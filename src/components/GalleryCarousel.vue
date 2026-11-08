@@ -333,7 +333,7 @@ onBeforeUnmount(() => {
           :class="i === index ? 'is-active' : ''"
           :aria-label="`Kartu foto ${i + 1}`"
           :aria-current="i === index ? 'true' : undefined"
-          
+          @click="onDot(i)"
         />
       </div>
     </div>
