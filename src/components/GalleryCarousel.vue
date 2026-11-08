@@ -331,6 +331,9 @@ onBeforeUnmount(() => {
           type="button"
           class="gallery-dot h-1.5 min-h-[6px] cursor-pointer rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           :class="i === index ? 'is-active' : ''"
+          :aria-label="`Kartu foto ${i + 1}`"
+          :aria-current="i === index ? 'true' : undefined"
+          
         />
       </div>
     </div>
