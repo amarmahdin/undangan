@@ -357,5 +357,7 @@ onBeforeUnmount(() => {
 
 .gallery-card {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+  outline: 1px solid rgba(255, 255, 255, 0.22);
+  outline-offset: -1px;
 }
 </style>
