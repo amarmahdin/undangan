@@ -344,5 +344,8 @@ onBeforeUnmount(() => {
 .gallery-bg {
   opacity: 0;
   transform: scale(1.08);
+  transition:
+    opacity 1.1s cubic-bezier(0.16, 1, 0.3, 1),
+    
 }
 </style>
