@@ -351,6 +351,7 @@ onBeforeUnmount(() => {
 }
 
 .gallery-bg.is-active {
-  
+  opacity: 1;
+  transform: scale(1);
 }
 </style>
