@@ -343,5 +343,6 @@ onBeforeUnmount(() => {
 <style scoped>
 .gallery-bg {
   opacity: 0;
+  transform: scale(1.08);
 }
 </style>
