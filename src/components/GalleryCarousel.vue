@@ -324,7 +324,7 @@ onBeforeUnmount(() => {
     </div>
 
     <div class="absolute inset-x-0 bottom-5 z-20 flex w-full justify-center sm:bottom-7">
-      <div class="">
+      <div class="flex items-center justify-center gap-1.5">
 
       </div>
     </div>
