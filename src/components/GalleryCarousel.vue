@@ -327,6 +327,8 @@ onBeforeUnmount(() => {
       <div class="flex items-center justify-center gap-1.5">
         <button
           v-for="(_, i) in photos"
+          :key="i"
+          type="button"
         />
       </div>
     </div>
