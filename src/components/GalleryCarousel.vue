@@ -304,7 +304,7 @@ onBeforeUnmount(() => {
           class="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/95 text-xs font-semibold text-burgundy shadow"
                     aria-hidden="true"
           >
-           {{ i + 1 }}'
+          {{ i + 1 }}'
           </div>
           <div
           class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
@@ -314,6 +314,9 @@ onBeforeUnmount(() => {
                       >
 Foto {{ i + 1 }}
           </p>
+          ><div>
+            
+          </div>
           </div>
           </div>
           </button>
