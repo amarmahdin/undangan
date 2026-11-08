@@ -317,7 +317,9 @@ Foto {{ i + 1 }}
           ><div
           class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
           >
-
+          <p class="truncate font-display text-[10px] tracking-[0.16em] text-white/80 uppercase">
+                      Foto {{ i + 1 }}
+                    </p>
           </div>
           </div>
           </div>
