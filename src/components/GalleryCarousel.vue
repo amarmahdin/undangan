@@ -2,8 +2,8 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 
 const props = defineProps({
-    photos: { type: Array, required: true },
-    asset: { type: Function, required: true },
+  photos: { type: Array, required: true },
+  asset: { type: Function, required: true },
 })
 
 const viewport = ref(null)
@@ -55,13 +55,13 @@ function cardVisual(i) {
 }
 
 function cardStyle(i) {
-    const visual = cardVisual(i)
+  const visual = cardVisual(i)
   return {
     ...visual,
     transition: dragging.value
       ? 'none'
       : `transform 0.85s ${EASE}, opacity 0.7s ${EASE}, filter 0.7s ${EASE}`,
-   } 
+  }
 }
 
 function lockPageScrollX() {
@@ -75,10 +75,10 @@ function measure() {
   if (!viewport.value) return
   const card = viewport.value.querySelector('[data-card]')
   if (card) {
-     const gap = Number.parseFloat(styles.marginRight) || 14
+    const gap = Number.parseFloat(styles.marginRight) || 14
     const styles = window.getComputedStyle(card)
     step = card.getBoundingClientRect().width + gap
-    }
+  }
 }
 
 function go(to) {
@@ -97,7 +97,7 @@ function prev() {
 
 function stopAuto() {
   if (autoTimer) {
-   window.clearInterval(autoTimer)
+    window.clearInterval(autoTimer)
     autoTimer = undefined
   }
 }
@@ -128,17 +128,15 @@ function onPointerMove(e) {
   const dx = e.clientX - startX
   const dy = e.clientY - startY
   if (!locked) {
-   if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return
+    if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return
     locked = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y'
   }
-  
   if (locked === 'y') {
     dragging.value = false
     dragX.value = 0
     startAuto()
     return
   }
-
   if (viewport.value) viewport.value.style.touchAction = 'none'
   e.preventDefault()
   lockPageScrollX()
@@ -210,7 +208,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section 
+  <section
     class="gallery-carousel relative isolate w-full max-w-[100vw] overflow-x-clip select-none outline-none"
     tabindex="0"
     aria-roledescription="carousel"
@@ -230,16 +228,17 @@ onBeforeUnmount(() => {
         ]"
         draggable="false"
       />
-    </div>
-    <div class="absolute inset-0 bg-burgundy-deep/45" />
-    <div
+      <div class="absolute inset-0 bg-burgundy-deep/45" />
+      <div
         class="absolute inset-0 bg-gradient-to-r from-burgundy-deep/70 via-burgundy-deep/25 to-transparent"
       />
       <div
         class="absolute inset-0 bg-gradient-to-t from-burgundy-deep/55 via-transparent to-burgundy-deep/30"
       />
+    </div>
 
-    <div class="relative flex min-h-[85dvh] w-full flex-col justify-end gap-6 overflow-x-clip py-12 pb-16 sm:min-h-[78dvh] sm:flex-row sm:items-end sm:justify-between sm:gap-6 sm:py-16"
+    <div
+      class="relative flex min-h-[85dvh] w-full flex-col justify-end gap-6 overflow-x-clip py-12 pb-16 sm:min-h-[78dvh] sm:flex-row sm:items-end sm:justify-between sm:gap-6 sm:py-16"
     >
       <div class="relative z-10 max-w-md shrink-0 px-5 sm:pb-10 sm:pl-8 sm:pr-0 lg:pl-12">
         <p
@@ -263,72 +262,63 @@ onBeforeUnmount(() => {
           @pointerup="onPointerUp"
           @pointercancel="onPointerUp"
         >
-        <div
+          <div
             class="absolute left-0 top-0 flex h-full pl-[22vw] will-change-transform sm:pl-0"
             :style="trackStyle"
-        >
-          <article
-            v-for="(photo, i) in photos"
-            :key="photo.src"
-            data-card
-            class="h-full w-[42vw] max-w-[200px] shrink-0 sm:w-[170px] lg:w-[190px]"
-            :class="i < photos.length - 1 ? 'mr-3.5' : 'mr-0'"
-            :aria-hidden="i !== index"
-            :style="{ zIndex: cardVisual(i).zIndex }"
           >
-          <button
-          type="button"
-          class="block h-full w-full cursor-pointer text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
-          :aria-label="`Lihat foto ${i + 1}`"
-          @click="selectCard(i)"
-          >
-          <div
-            class="gallery-card relative h-full overflow-hidden rounded-[1.35rem]"
-            :class="i === index ? 'is-active' : ''"
-            :style="cardStyle(i)"
-          >
-          <img
-          :src="asset(photo.src)"
-          :alt="photo.alt"
-          class="gallery-card-img pointer-events-none h-full w-full object-cover"
+            <article
+              v-for="(photo, i) in photos"
+              :key="photo.src"
+              data-card
+              class="h-full w-[42vw] max-w-[200px] shrink-0 sm:w-[170px] lg:w-[190px]"
+              :class="i < photos.length - 1 ? 'mr-3.5' : 'mr-0'"
+              :aria-hidden="i !== index"
+              :style="{ zIndex: cardVisual(i).zIndex }"
+            >
+              <button
+                type="button"
+                class="block h-full w-full cursor-pointer text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
+                :aria-label="`Lihat foto ${i + 1}`"
+                @click="selectCard(i)"
+              >
+                <div
+                  class="gallery-card relative h-full overflow-hidden rounded-[1.35rem]"
+                  :class="i === index ? 'is-active' : ''"
+                  :style="cardStyle(i)"
+                >
+                  <img
+                    :src="asset(photo.src)"
+                    :alt="photo.alt"
+                    class="gallery-card-img pointer-events-none h-full w-full object-cover"
                     :class="[
                       i === index ? 'is-active' : '',
                       photo.wide ? 'object-center' : 'object-[center_18%]',
-          ]"
-          width="1066"
-          height="1600"
-          draggable="false"
+                    ]"
+                    width="1066"
+                    height="1600"
+                    draggable="false"
                     loading="lazy"
-          >
-          <div
-          class="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/95 text-xs font-semibold text-burgundy shadow"
+                  />
+                  <div
+                    class="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/95 text-xs font-semibold text-burgundy shadow"
                     aria-hidden="true"
-          >
-          {{ i + 1 }}'
-          </div>
-          <div
-          class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
-                  
-          >
-          <p class="truncate font-display text-[10px] tracking-[0.16em] text-white/80 uppercase">
-                      >
-Foto {{ i + 1 }}
-          </p>
-          ><div
-          class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
-          >
-          <p class="truncate font-display text-[10px] tracking-[0.16em] text-white/80 uppercase">
-            Foto {{ i + 1 }}
-          </p>
-          <p class="truncate font-script text-xl leading-none text-white">
+                  >
+                    {{ i + 1 }}
+                  </div>
+                  <div
+                    class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent px-3 pb-3 pt-12"
+                  >
+                    <p class="truncate font-display text-[10px] tracking-[0.16em] text-white/80 uppercase">
+                      Foto {{ i + 1 }}
+                    </p>
+                    <p class="truncate font-script text-xl leading-none text-white">
                       Euis &amp; Eka
                     </p>
+                  </div>
+                </div>
+              </button>
+            </article>
           </div>
-          </div>
-          </div>
-          </button>
-          </article>
-        </div>
         </div>
       </div>
     </div>
