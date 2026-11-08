@@ -359,5 +359,6 @@ onBeforeUnmount(() => {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
   outline: 1px solid rgba(255, 255, 255, 0.22);
   outline-offset: -1px;
+  transition: box-shadow 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 </style>
