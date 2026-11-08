@@ -324,7 +324,9 @@ onBeforeUnmount(() => {
     </div>
 
     <div class="absolute inset-x-0 bottom-5 z-20 flex w-full justify-center sm:bottom-7">
+      <div class="">
 
+      </div>
     </div>
   </section>
 </template>
