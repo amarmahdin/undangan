@@ -364,5 +364,6 @@ onBeforeUnmount(() => {
 
 .gallery-card-img {
   transform: scale(1.06);
+  transition: transform 5.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 </style>
