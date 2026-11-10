@@ -361,4 +361,8 @@ onBeforeUnmount(() => {
   outline-offset: -1px;
   transition: box-shadow 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+.gallery-card-img {
+  transform: scale(1.06);
+}
 </style>
