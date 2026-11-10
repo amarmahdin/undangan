@@ -391,6 +391,8 @@ onBeforeUnmount(() => {
 }
 
 @keyframes gallery-counter-in {
-  
+  from {
+    opacity: 0;
+  }
 }
 </style>
