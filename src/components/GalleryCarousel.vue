@@ -380,6 +380,8 @@ onBeforeUnmount(() => {
   width: 6px;
   background: rgba(243, 230, 212, 0.4);
    transition:
-    width 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+    width 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.45s ease,
+    opacity 0.45s ease;
 }
 </style>
