@@ -412,4 +412,8 @@ onBeforeUnmount(() => {
     animation: none !important;
   }
 }
+
+.gallery-bg {
+  transform: none;
+}
 </style>
