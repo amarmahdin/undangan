@@ -423,6 +423,6 @@ onBeforeUnmount(() => {
 
 .gallery-card-img,
 .gallery-card-img.is-active {
-
+    transform: none;
 }
 </style>
