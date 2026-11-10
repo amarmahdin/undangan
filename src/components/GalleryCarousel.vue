@@ -389,4 +389,8 @@ onBeforeUnmount(() => {
   width: 22px;
   background: var(--color-gold);
 }
+
+@keyframes gallery-counter-in {
+  
+}
 </style>
