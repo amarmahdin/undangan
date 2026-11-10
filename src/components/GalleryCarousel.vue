@@ -404,6 +404,8 @@ onBeforeUnmount(() => {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  
+  .gallery-bg {
+    
+  }
 }
 </style>
