@@ -386,6 +386,7 @@ onBeforeUnmount(() => {
 }
 
 .gallery-dot.is-active {
-  
+  width: 22px;
+  background: var(--color-gold);
 }
 </style>
