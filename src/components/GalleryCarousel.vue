@@ -384,4 +384,8 @@ onBeforeUnmount(() => {
     background-color 0.45s ease,
     opacity 0.45s ease;
 }
+
+.gallery-dot.is-active {
+  
+}
 </style>
