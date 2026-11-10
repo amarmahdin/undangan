@@ -416,4 +416,8 @@ onBeforeUnmount(() => {
 .gallery-bg {
   transform: none;
 }
+
+.gallery-bg.is-active {
+  transform: none;
+}
 </style>
