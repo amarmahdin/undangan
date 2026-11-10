@@ -379,5 +379,7 @@ onBeforeUnmount(() => {
 .gallery-dot {
   width: 6px;
   background: rgba(243, 230, 212, 0.4);
+   transition:
+    width 0.55s cubic-bezier(0.16, 1, 0.3, 1);
 }
 </style>
