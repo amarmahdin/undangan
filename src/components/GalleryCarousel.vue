@@ -398,6 +398,8 @@ onBeforeUnmount(() => {
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 0.3em;
   }
 }
 </style>
