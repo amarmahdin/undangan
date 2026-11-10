@@ -367,4 +367,8 @@ onBeforeUnmount(() => {
   transition: transform 5.5s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform;
 }
+
+.gallery-card-img.is-active {
+  transform: scale(1);
+}
 </style>
