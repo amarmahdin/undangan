@@ -362,6 +362,12 @@ onBeforeUnmount(() => {
   transition: box-shadow 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.gallery-card.is-active {
+  box-shadow:
+    0 22px 48px rgba(0, 0, 0, 0.42),
+    0 0 0 1.5px rgba(201, 163, 106, 0.55);
+}
+
 .gallery-card-img {
   transform: scale(1.06);
   transition: transform 5.5s cubic-bezier(0.16, 1, 0.3, 1);
@@ -379,7 +385,7 @@ onBeforeUnmount(() => {
 .gallery-dot {
   width: 6px;
   background: rgba(243, 230, 212, 0.4);
-   transition:
+  transition:
     width 0.55s cubic-bezier(0.16, 1, 0.3, 1),
     background-color 0.45s ease,
     opacity 0.45s ease;
@@ -411,18 +417,18 @@ onBeforeUnmount(() => {
     transition: none !important;
     animation: none !important;
   }
-}
 
-.gallery-bg {
-  transform: none;
-}
-
-.gallery-bg.is-active {
-  transform: none;
-}
-
-.gallery-card-img,
-.gallery-card-img.is-active {
+  .gallery-bg {
     transform: none;
+  }
+
+  .gallery-bg.is-active {
+    transform: none;
+  }
+
+  .gallery-card-img,
+  .gallery-card-img.is-active {
+    transform: none;
+  }
 }
 </style>
