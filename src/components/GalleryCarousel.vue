@@ -420,4 +420,8 @@ onBeforeUnmount(() => {
 .gallery-bg.is-active {
   transform: none;
 }
+
+.gallery-card-img {
+  
+}
 </style>
