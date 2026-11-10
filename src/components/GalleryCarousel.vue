@@ -377,6 +377,6 @@ onBeforeUnmount(() => {
 }
 
 .gallery-dot {
-  
+  width: 6px;
 }
 </style>
