@@ -393,6 +393,8 @@ onBeforeUnmount(() => {
 @keyframes gallery-counter-in {
   from {
     opacity: 0;
+    transform: translateY(6px);
+    letter-spacing: 0.42em;
   }
 }
 </style>
