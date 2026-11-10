@@ -406,8 +406,8 @@ onBeforeUnmount(() => {
 @media (prefers-reduced-motion: reduce) {
   .gallery-bg,
   .gallery-card-img,
-  .gallery-counter{
-
+  .gallery-counter,
+  .gallery-dot {
   }
 }
 </style>
