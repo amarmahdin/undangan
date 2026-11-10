@@ -375,4 +375,8 @@ onBeforeUnmount(() => {
 .gallery-counter {
   animation: gallery-counter-in 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+.gallery-dot {
+  
+}
 </style>
