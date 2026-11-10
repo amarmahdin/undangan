@@ -408,6 +408,8 @@ onBeforeUnmount(() => {
   .gallery-card-img,
   .gallery-counter,
   .gallery-dot {
+    transition: none !important;
+    animation: none !important;
   }
 }
 </style>
