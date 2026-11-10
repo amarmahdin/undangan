@@ -402,4 +402,8 @@ onBeforeUnmount(() => {
     letter-spacing: 0.3em;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  
+}
 </style>
