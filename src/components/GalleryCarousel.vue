@@ -421,7 +421,8 @@ onBeforeUnmount(() => {
   transform: none;
 }
 
-.gallery-card-img {
-  
+.gallery-card-img,
+.gallery-card-img.is-active {
+
 }
 </style>
