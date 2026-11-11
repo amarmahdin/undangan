@@ -8,4 +8,8 @@ import HeroStage from './HeroStage.vue'
 import LoveStory from './LoveStory.vue'
 import Reveal from './Reveal.vue'
 import WishForm from './WishForm.vue'
+
+const props = defineProps({
+  
+})
 </script>
