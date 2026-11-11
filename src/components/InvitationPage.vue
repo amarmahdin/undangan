@@ -6,4 +6,6 @@ import FloralCorner from './FloralCorner.vue'
 import GiftSection from './GiftSection.vue'
 import HeroStage from './HeroStage.vue'
 import LoveStory from './LoveStory.vue'
+import Reveal from './Reveal.vue'
+import WishForm from './WishForm.vue'
 </script>
