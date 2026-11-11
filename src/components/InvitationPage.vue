@@ -3,4 +3,5 @@ import { computed, onBeforeUnmount, onMounted, reactive, watch } from 'vue'
 import GalleryCarousel from './GalleryCarousel.vue'
 import EventOval from './EventOval.vue'
 import FloralCorner from './FloralCorner.vue'
+import GiftSection from './GiftSection.vue'
 </script>
