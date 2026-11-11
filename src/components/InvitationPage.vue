@@ -10,6 +10,7 @@ import Reveal from './Reveal.vue'
 import WishForm from './WishForm.vue'
 
 const props = defineProps({
-  
+  invitation: { type: Object, required: true },
+  opened: { type: Boolean, default: false },
 })
 </script>
