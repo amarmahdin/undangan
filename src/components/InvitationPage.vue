@@ -5,4 +5,5 @@ import EventOval from './EventOval.vue'
 import FloralCorner from './FloralCorner.vue'
 import GiftSection from './GiftSection.vue'
 import HeroStage from './HeroStage.vue'
+import LoveStory from './LoveStory.vue'
 </script>
