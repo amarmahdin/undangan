@@ -62,7 +62,7 @@ watch(
     if (value) {
       heroReady.show = false
       window.setTimeout(() => {
-        
+        heroReady.show = true
       }),
     }
   }
