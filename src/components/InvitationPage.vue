@@ -60,7 +60,7 @@ watch(
   () => props.opened,
   (value) => {
     if (value) {
-      
+      heroReady.show = false
     }
   }
 )
