@@ -48,4 +48,8 @@ function updateCountdown () {
   remaining.minutes = Math.floor((diff % 3600000) / 60000)
   remaining.seconds = Math.floor((diff % 60000) / 1000)
 }
+
+const mapsLink = computed(() => {
+  
+})
 </script>
