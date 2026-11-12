@@ -51,6 +51,6 @@ function updateCountdown () {
 
 const mapsLink = computed(() => {
   const q = encodeURIComponent(props.invitation.venue.mapsQuery)
-  
+  return `https://www.google.com/maps/search/?api=1&query=${q}`
 })
 </script>
