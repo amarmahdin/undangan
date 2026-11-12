@@ -25,6 +25,6 @@ const remaining = reactive  ({
 const heroReady = refShow()
 
 function refShow() {
-  
+  return reactive({ show: false })
 }
 </script>
