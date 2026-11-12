@@ -45,5 +45,7 @@ function updateCountdown () {
   remaining.done = false
   remaining.days = Math.floor(diff / 86400000)
   remaining.hours = Math.floor((diff % 86400000) / 3600000)
+  remaining.minutes = Math.floor((diff % 3600000) / 60000)
+  remaining.seconds = Math.floor((diff % 60000) / 1000)
 }
 </script>
