@@ -50,6 +50,7 @@ function updateCountdown () {
 }
 
 const mapsLink = computed(() => {
+  const q = encodeURIComponent(props.invitation.venue.mapsQuery)
   
 })
 </script>
