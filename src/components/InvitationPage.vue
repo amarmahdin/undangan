@@ -15,6 +15,7 @@ const props = defineProps({
 })
 
 const remaining = reactive  ({
-  
+  days: 0,
+  hours: 0,
 })
 </script>
