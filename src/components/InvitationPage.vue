@@ -53,4 +53,7 @@ const mapsLink = computed(() => {
   const q = encodeURIComponent(props.invitation.venue.mapsQuery)
   return `https://www.google.com/maps/search/?api=1&query=${q}`
 })
+
+const asset = (file) => `${import.meta.env.BASE_URL}images/${file}`
+
 </script>
