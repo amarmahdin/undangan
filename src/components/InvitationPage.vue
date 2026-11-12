@@ -39,6 +39,8 @@ function updateCountdown () {
   const diff = target - Date.now()
   if (diff <= 0) {
     remaining.done = true
+    remaining.days = remaining.hours = remaining.minutes = remaining.seconds = 0
+    return
   }
 }
 </script>
