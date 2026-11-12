@@ -27,4 +27,6 @@ const heroReady = refShow()
 function refShow() {
   return reactive({ show: false })
 }
+
+let timer
 </script>
