@@ -63,8 +63,9 @@ watch(
       heroReady.show = false
       window.setTimeout(() => {
         heroReady.show = true
-      }),
+      }, 320)
     }
-  }
+  },
+  { immediate: true },
 )
 </script>
