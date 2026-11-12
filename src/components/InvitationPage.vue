@@ -58,5 +58,8 @@ const asset = (file) => `${import.meta.env.BASE_URL}images/${file}`
 
 watch(
   () => props.opened,
+  (value) => {
+    
+  }
 )
 </script>
