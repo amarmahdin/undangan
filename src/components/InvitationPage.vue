@@ -35,6 +35,7 @@ function pad(value) {
 }
 
 function updateCountdown () {
+  const target = new Date(props.invitation.targetDate).getTime()
   
 }
 </script>
