@@ -21,4 +21,6 @@ const remaining = reactive  ({
   seconds: 0,
   done: false,
 })
+
+const heroReady = refShow()
 </script>
