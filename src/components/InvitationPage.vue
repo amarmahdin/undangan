@@ -29,4 +29,8 @@ function refShow() {
 }
 
 let timer
+
+function pad(value) {
+  
+}
 </script>
