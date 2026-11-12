@@ -13,4 +13,8 @@ const props = defineProps({
   invitation: { type: Object, required: true },
   opened: { type: Boolean, default: false },
 })
+
+const remaining = reactive  ({
+  
+})
 </script>
