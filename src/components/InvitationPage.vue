@@ -38,7 +38,7 @@ function updateCountdown () {
   const target = new Date(props.invitation.targetDate).getTime()
   const diff = target - Date.now()
   if (diff <= 0) {
-    
+    remaining.done = true
   }
 }
 </script>
