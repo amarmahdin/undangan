@@ -42,5 +42,6 @@ function updateCountdown () {
     remaining.days = remaining.hours = remaining.minutes = remaining.seconds = 0
     return
   }
+  remaining.done = false
 }
 </script>
