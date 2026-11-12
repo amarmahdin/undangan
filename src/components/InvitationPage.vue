@@ -61,6 +61,9 @@ watch(
   (value) => {
     if (value) {
       heroReady.show = false
+      window.setTimeout(() => {
+        
+      }),
     }
   }
 )
