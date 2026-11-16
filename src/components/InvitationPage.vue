@@ -78,3 +78,9 @@ onBeforeUnmount(() => {
   window.clearInterval(timer)
 })
 </script>
+
+<template>
+  <div>
+    
+  </div>
+</template>
