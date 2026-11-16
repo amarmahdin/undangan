@@ -91,6 +91,7 @@ onBeforeUnmount(() => {
       <HeroStage
       :date-label="invitation.dateLabel"
       :city="invitation.city"
+      show-scroll
       />
     </section>
   </div>
