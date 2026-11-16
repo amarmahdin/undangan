@@ -93,10 +93,10 @@ onBeforeUnmount(() => {
       :city="invitation.city"
       show-scroll
       />
-    </section>
+    </section class="section-luxury mx-auto max-w-3xl px-5 py-16 text-center sm:py-20">
 
     <section>
-      
+
     </section>
   </div>
 </template>
