@@ -88,7 +88,9 @@ onBeforeUnmount(() => {
     class="relative overflow-hidden"
     :class="heroReady.show ? 'hero-enter-in' : 'hero-enter'"
     >
-      <HeroStage/>
+      <HeroStage
+      :date-label="invitation.dateLabel"
+      />
     </section>
   </div>
 </template>
