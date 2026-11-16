@@ -88,7 +88,7 @@ onBeforeUnmount(() => {
     class="relative overflow-hidden"
     :class="heroReady.show ? 'hero-enter-in' : 'hero-enter'"
     >
-
+      <HeroStage/>
     </section>
   </div>
 </template>
