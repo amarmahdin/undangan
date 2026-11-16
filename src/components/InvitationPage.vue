@@ -80,7 +80,10 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div>
+  <div 
+  class="silk-bg max-w-[100vw] overflow-x-clip text-ink transition-opacity duration-700"
+  
+  >
     
   </div>
 </template>
