@@ -86,6 +86,7 @@ onBeforeUnmount(() => {
   >
     <section
     class="relative overflow-hidden"
+    :class="heroReady.show ? 'hero-enter-in' : 'hero-enter'"
     >
 
     </section>
