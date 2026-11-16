@@ -70,6 +70,7 @@ watch(
 )
 
 onMounted(() => {
+  updateCountdown()
   
 })
 </script>
