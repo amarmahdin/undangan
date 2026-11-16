@@ -82,7 +82,7 @@ onBeforeUnmount(() => {
 <template>
   <div 
   class="silk-bg max-w-[100vw] overflow-x-clip text-ink transition-opacity duration-700"
-  
+  :class="opened ? 'opacity-100' : 'pointer-events-none max-h-dvh overflow-hidden opacity-0'"
   >
     
   </div>
