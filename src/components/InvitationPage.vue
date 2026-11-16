@@ -71,6 +71,6 @@ watch(
 
 onMounted(() => {
   updateCountdown()
-  
+  timer = window.setInterval(updateCountdown, 1000)
 })
 </script>
