@@ -94,7 +94,9 @@ onBeforeUnmount(() => {
       show-scroll
       />
     </section class="section-luxury mx-auto max-w-3xl px-5 py-16 text-center sm:py-20">
+      <Reveal from="up" class="relative z-[1]">
 
+      </Reveal>
     <section>
 
     </section>
