@@ -97,7 +97,7 @@ onBeforeUnmount(() => {
       <Reveal from="up" class="relative z-[1]">
         <Ornament class="mx-auto mb-6 w-28 text-gold/70" />
         <p class="font-display text-lg italic leading-relaxed text-burgundy sm:text-xl">
-
+          “{{ invitation.quote }}”
         </p>
       </Reveal>
     <section>
