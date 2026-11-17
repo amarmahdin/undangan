@@ -100,7 +100,7 @@ onBeforeUnmount(() => {
           “{{ invitation.quote }}”
         </p>
         <p class="mt-5 font-display tracking-[0.16em] text-gold-deep uppercase">
-
+          ( {{ invitation.quoteSource }} )
         </p>
       </Reveal>
     <section>
