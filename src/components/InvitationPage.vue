@@ -99,6 +99,9 @@ onBeforeUnmount(() => {
         <p class="font-display text-lg italic leading-relaxed text-burgundy sm:text-xl">
           “{{ invitation.quote }}”
         </p>
+        <p class="mt-5 font-display tracking-[0.16em] text-gold-deep uppercase">
+
+        </p>
       </Reveal>
     <section>
 
