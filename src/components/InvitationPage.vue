@@ -135,6 +135,9 @@ onBeforeUnmount(() => {
               loading="lazy"
             />
           </div>
+          <p class="mt-5 font-display text-[11px] tracking-[0.28em]  uppercase">
+            Mempelai Wanita
+          </p>
         </article>
       </Reveal>
     </div>
