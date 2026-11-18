@@ -103,8 +103,8 @@ onBeforeUnmount(() => {
           ( {{ invitation.quoteSource }} )
         </p>
       </Reveal>
-    <section>
-      
+    <section class="relative mx-auto max-w-5xl px-5 pb-16 sm:pb-24">
+
     </section>
   </div>
 </template>
