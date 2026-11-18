@@ -132,6 +132,7 @@ onBeforeUnmount(() => {
               :alt="invitation.bride.fullName"
               width="800"
               height="1200"
+              loading="lazy"
             />
           </div>
         </article>
