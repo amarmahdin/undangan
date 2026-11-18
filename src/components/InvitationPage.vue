@@ -129,6 +129,9 @@ onBeforeUnmount(() => {
           <div class="photo-frame photo-frame-anim w-[58%] max-w-[200px] sm:w-[70%]">
             <img
               :src="asset(invitation.bride.photo)"
+              :alt="invitation.bride.fullName"
+              width="800"
+              height="1200"
             />
           </div>
         </article>
