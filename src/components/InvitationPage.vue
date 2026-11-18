@@ -115,7 +115,9 @@ onBeforeUnmount(() => {
 
   <div class="invite-panel relative z-[1] px-5 py-10 sm:px-12 sm:py-12">
     <Reveal from="fade">
+      <p class="text-center font-display text-lg text-burgundy sm:text-xl">
 
+      </p>
     </Reveal>
   </div>
 </template>
