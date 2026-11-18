@@ -119,7 +119,7 @@ onBeforeUnmount(() => {
         {{ invitation.greeting }}
       </p>
       <p class="mx-auto mt-5 max-w-2xl text-center text-base leading-relaxed text-muted">
-        
+        {{ invitation.intro }}
       </p>
     </Reveal>
   </div>
