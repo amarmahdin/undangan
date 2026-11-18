@@ -126,7 +126,9 @@ onBeforeUnmount(() => {
     <div class="mt-12 grid gap-12 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-8">
       <Reveal from="soft" :delay="80">
         <article class="flex flex-col items-center text-center">
+          <div class="photo-frame photo-frame-anim w-[58%] max-w-[200px] sm:w-[70%]">
 
+          </div>
         </article>
       </Reveal>
     </div>
