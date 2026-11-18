@@ -108,7 +108,7 @@ onBeforeUnmount(() => {
         <FloralCorner side="left" />
       </div>
       <div class="pointer-events-none absolute -bottom-4 -right-2 z-[2] w-32 opacity-90 sm:-bottom-6 sm:-right-6 sm:w-44">
-
+        <FloralCorner side="right" />
       </div>
     </section>
   </div>
