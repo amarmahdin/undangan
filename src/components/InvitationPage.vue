@@ -124,7 +124,9 @@ onBeforeUnmount(() => {
     </Reveal>
 
     <div class="mt-12 grid gap-12 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-8">
+      <Reveal from="soft" :delay="80">
 
+      </Reveal>
     </div>
   </div>
 </template>
