@@ -105,7 +105,7 @@ onBeforeUnmount(() => {
       </Reveal>
     <section class="relative mx-auto max-w-5xl px-5 pb-16 sm:pb-24">
       <div class="pointer-events-none absolute -left-2 -top-6 z-[2] w-36 opacity-90 sm:-left-8 sm:-top-8 sm:w-48">
-
+        <FloralCorner side="left" />
       </div>
     </section>
   </div>
