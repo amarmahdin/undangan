@@ -197,6 +197,7 @@ onBeforeUnmount(() => {
       <div class="mt-10 grid justify-items-center gap-10 lg:grid-cols-2 lg:gap-8">
         <<Reveal
           v-for="(event, i) in invitation.events"
+          :key="event.title"
         >
 
         </Reveal>
