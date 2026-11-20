@@ -172,7 +172,7 @@ onBeforeUnmount(() => {
               loading="lazy"
             />
           </div>
-          <p >
+          <p class="mt-5 font-display text-[11px] tracking-[0.28em] text-gold-deep uppercase">
             Mempelai Pria
           </p>
         </article>
