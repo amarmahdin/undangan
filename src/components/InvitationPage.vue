@@ -150,6 +150,7 @@ onBeforeUnmount(() => {
       <Reveal
         from="fade"
         :delay="180"
+        class="flex items-center justify-center self-center py-2 md:py-16"
       >
 
       </Reveal>
