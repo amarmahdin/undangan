@@ -142,7 +142,7 @@ onBeforeUnmount(() => {
             {{ invitation.bride.fullName }}
           </p>
           <p class="mt-3 max-w-xs text-sm leading-relaxed text-muted">
-            
+            {{ invitation.bride.parents }}
           </p>
         </article>
       </Reveal>
