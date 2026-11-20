@@ -162,7 +162,9 @@ onBeforeUnmount(() => {
       </Reveal>
 
       <Reveal from="soft" :delay="260">
+        <article class="flex flex-col items-center text-center">
 
+        </article>
       </Reveal>
     </div>
   </div>
