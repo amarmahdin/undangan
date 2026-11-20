@@ -146,6 +146,13 @@ onBeforeUnmount(() => {
           </p>
         </article>
       </Reveal>
+
+      <Reveal
+        from="fade"
+        :delay="180"
+      >
+
+      </Reveal>
     </div>
   </div>
 </template>
