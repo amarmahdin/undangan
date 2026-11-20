@@ -160,6 +160,10 @@ onBeforeUnmount(() => {
           <div class="hidden h-12 w-px bg-gold/40 md:block" />
         </div>
       </Reveal>
+
+      <Reveal from="soft" :delay="260">
+
+      </Reveal>
     </div>
   </div>
 </template>
