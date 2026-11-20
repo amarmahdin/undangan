@@ -189,7 +189,9 @@ onBeforeUnmount(() => {
   <section class="burgundy-luxe px-5 py-16 sm:py-24">
     <div class="mx-auto max-w-5xl">
       <Reveal from="up">
+        <p class="text-center font-display text-xs tracking-[0.3em] text-gold uppercase">
 
+        </p>
       </Reveal>
     </div>
   </section>
