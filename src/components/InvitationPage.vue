@@ -152,7 +152,9 @@ onBeforeUnmount(() => {
         :delay="180"
         class="flex items-center justify-center self-center py-2 md:py-16"
       >
-
+        <div class="flex flex-col items-center gap-3">
+          
+        </div>
       </Reveal>
     </div>
   </div>
