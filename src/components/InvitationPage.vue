@@ -164,7 +164,9 @@ onBeforeUnmount(() => {
       <Reveal from="soft" :delay="260">
         <article class="flex flex-col items-center text-center">
           <div class="photo-frame photo-frame-anim w-[58%] max-w-[200px] sm:w-[70%]">
-
+            <img
+              :src="asset(invitation.groom.photo)"
+            />
           </div>
         </article>
       </Reveal>
