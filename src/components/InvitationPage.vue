@@ -139,7 +139,7 @@ onBeforeUnmount(() => {
             Mempelai Wanita
           </p>
           <p class="mt-2 font-script text-[clamp(1.85rem,5vw,2.75rem)] leading-tight text-gold-deep">
-            
+            {{ invitation.bride.fullName }}
           </p>
         </article>
       </Reveal>
