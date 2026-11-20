@@ -175,6 +175,9 @@ onBeforeUnmount(() => {
           <p class="mt-5 font-display text-[11px] tracking-[0.28em] text-gold-deep uppercase">
             Mempelai Pria
           </p>
+          <p class="mt-2 font-script text-[clamp(1.85rem,5vw,2.75rem)] leading-tight text-gold-deep">
+            
+          </p>
         </article>
       </Reveal>
     </div>
