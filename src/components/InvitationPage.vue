@@ -198,6 +198,8 @@ onBeforeUnmount(() => {
         <<Reveal
           v-for="(event, i) in invitation.events"
           :key="event.title"
+          :from="i === 0 ? 'left' : 'right'"
+          :delay="100 + i * 140"
         >
 
         </Reveal>
