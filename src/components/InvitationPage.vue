@@ -172,6 +172,9 @@ onBeforeUnmount(() => {
               loading="lazy"
             />
           </div>
+          <p >
+            Mempelai Pria
+          </p>
         </article>
       </Reveal>
     </div>
