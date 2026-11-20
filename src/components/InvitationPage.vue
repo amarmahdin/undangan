@@ -153,7 +153,7 @@ onBeforeUnmount(() => {
         class="flex items-center justify-center self-center py-2 md:py-16"
       >
         <div class="flex flex-col items-center gap-3">
-          
+          <div class="hidden h-12 w-px bg-gold/40 md:block"/>
         </div>
       </Reveal>
     </div>
