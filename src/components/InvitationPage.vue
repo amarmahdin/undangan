@@ -141,6 +141,9 @@ onBeforeUnmount(() => {
           <p class="mt-2 font-script text-[clamp(1.85rem,5vw,2.75rem)] leading-tight text-gold-deep">
             {{ invitation.bride.fullName }}
           </p>
+          <p class="mt-3 max-w-xs text-sm leading-relaxed text-muted">
+            
+          </p>
         </article>
       </Reveal>
     </div>
