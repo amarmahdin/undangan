@@ -190,9 +190,13 @@ onBeforeUnmount(() => {
     <div class="mx-auto max-w-5xl">
       <Reveal from="up">
         <p class="text-center font-display text-xs tracking-[0.3em] text-gold uppercase">
-
+          Yang insya Allah akan dilaksanakan pada
         </p>
       </Reveal>
+
+      <div class="mt-10 grid justify-items-center gap-10 lg:grid-cols-2 lg:gap-8">
+
+      </div>
     </div>
   </section>
 </template>
