@@ -230,7 +230,8 @@ onBeforeUnmount(() => {
       :src="asset('countdown.jpg')"
       alt="Euis dan Eka"
       class="absolute inset-0 h-full w-full object-cover object-center"
-        
+      width="1400"
+      height="933"
       />
     </section>
   </div>
