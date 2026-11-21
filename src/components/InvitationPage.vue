@@ -206,6 +206,8 @@ onBeforeUnmount(() => {
             :day-name="event.dayName"
             :day="event.day"
             :month-year="event.monthYear"
+            :time="event.time"
+            :venue-name="invitation.venue.name"
           />
         </Reveal>
       </div>
