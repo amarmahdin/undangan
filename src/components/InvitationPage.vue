@@ -201,7 +201,9 @@ onBeforeUnmount(() => {
           :from="i === 0 ? 'left' : 'right'"
           :delay="100 + i * 140"
         >
-
+          <EventOval
+            :title="event.title"
+          />
         </Reveal>
       </div>
     </div>
