@@ -234,6 +234,7 @@ onBeforeUnmount(() => {
         height="933"
         loading="lazy"
       />
+      <div class="absolute inset-0 bg-burgundy-deep/70" />
     </section>
   </div>
 </template>
