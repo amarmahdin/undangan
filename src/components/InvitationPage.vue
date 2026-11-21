@@ -228,6 +228,9 @@ onBeforeUnmount(() => {
     <section class="relative overflow-hidden px-5 py-20 sm:py-24">
       <img 
       :src="asset('countdown.jpg')"
+      alt="Euis dan Eka"
+      class="absolute inset-0 h-full w-full object-cover object-center"
+        
       />
     </section>
   </div>
