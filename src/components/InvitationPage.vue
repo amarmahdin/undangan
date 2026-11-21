@@ -204,6 +204,8 @@ onBeforeUnmount(() => {
           <EventOval
             :title="event.title"
             :day-name="event.dayName"
+            :day="event.day"
+            :month-year="event.monthYear"
           />
         </Reveal>
       </div>
