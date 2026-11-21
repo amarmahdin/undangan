@@ -224,6 +224,9 @@ onBeforeUnmount(() => {
       </div>
     </section>
 
-    
+    <!-- Countdown + foto DSC00836 -->
+    <section class="relative overflow-hidden px-5 py-20 sm:py-24">
+
+    </section>
   </div>
 </template>
