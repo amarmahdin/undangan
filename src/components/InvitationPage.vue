@@ -259,7 +259,8 @@ onBeforeUnmount(() => {
         <div v-else class="mt-10 grid grid-cols-4 gap-2 sm:gap-4">
           <Reveal
               v-for="(unit, i) in [
-             
+              { label: 'Hari', value: remaining.days },
+              { label: 'Jam', value: remaining.hours },
             ]"
           >
 
