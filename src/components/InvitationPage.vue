@@ -256,6 +256,10 @@ onBeforeUnmount(() => {
         >
           Acara sedang berlangsung / telah usai.
         </p>
+        <div v-else class="mt-10 grid grid-cols-4 gap-2 sm:gap-4">
+
+        </div>
+
       </div>
     </section>
   </div>
