@@ -251,7 +251,8 @@ onBeforeUnmount(() => {
         </Reveal>
 
         <p
-           v-if="remaining.done"
+          v-if="remaining.done"
+          class="mt-8 font-display text-xl text-gold"
         >
           Acara sedang berlangsung / telah usai.
         </p>
