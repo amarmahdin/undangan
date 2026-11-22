@@ -265,6 +265,8 @@ onBeforeUnmount(() => {
               { label: 'Detik', value: remaining.seconds },
             ]"
             :key="unit.label"
+            from="up"
+            :delay="100 + i * 90"
           >
 
           </Reveal>
