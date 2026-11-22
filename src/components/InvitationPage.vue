@@ -249,6 +249,12 @@ onBeforeUnmount(() => {
           </h3>
           <Ornament class="mx-auto mt-5 w-32 text-gold" />
         </Reveal>
+
+        <p
+           v-if="remaining.done"
+        >
+          Acara sedang berlangsung / telah usai.
+        </p>
       </div>
     </section>
   </div>
