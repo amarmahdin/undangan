@@ -264,6 +264,7 @@ onBeforeUnmount(() => {
               { label: 'Menit', value: remaining.minutes },
               { label: 'Detik', value: remaining.seconds },
             ]"
+            :key="unit.label"
           >
 
           </Reveal>
