@@ -261,6 +261,8 @@ onBeforeUnmount(() => {
               v-for="(unit, i) in [
               { label: 'Hari', value: remaining.days },
               { label: 'Jam', value: remaining.hours },
+              { label: 'Menit', value: remaining.minutes },
+              { label: 'Detik', value: remaining.seconds },
             ]"
           >
 
