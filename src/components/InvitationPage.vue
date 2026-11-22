@@ -240,7 +240,9 @@ onBeforeUnmount(() => {
       />
 
       <div class="relative z-[1] mx-auto max-w-3xl text-center text-champagne">
+        <Reveal from="up">
 
+        </Reveal>
       </div>
     </section>
   </div>
