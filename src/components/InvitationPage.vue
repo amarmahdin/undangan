@@ -235,6 +235,9 @@ onBeforeUnmount(() => {
         loading="lazy"
       />
       <div class="absolute inset-0 bg-burgundy-deep/70" />
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-burgundy-deep via-burgundy-deep/50 to-burgundy-deep/35"
+      />
     </section>
   </div>
 </template>
