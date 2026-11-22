@@ -241,7 +241,7 @@ onBeforeUnmount(() => {
 
       <div class="relative z-[1] mx-auto max-w-3xl text-center text-champagne">
         <Reveal from="up">
-          <p class="font-display text-xs tracking-[0.3em] uppercase">
+          <p class="font-display text-xs tracking-[0.3em] text-gold uppercase">
             Countdown
           </p>
         </Reveal>
