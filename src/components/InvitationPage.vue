@@ -247,6 +247,7 @@ onBeforeUnmount(() => {
           <h3 class="mt-3 font-display text-2xl tracking-[0.2em] uppercase sm:text-3xl">
             Menuju hari bahagia
           </h3>
+          <Ornament class="mx-auto mt-5 w-32 text-gold" />
         </Reveal>
       </div>
     </section>
