@@ -244,7 +244,7 @@ onBeforeUnmount(() => {
           <p class="font-display text-xs tracking-[0.3em] text-gold uppercase">
             Countdown
           </p>
-          <h3 class="mt-3 text-2xl tracking-[0.2em] uppercase sm:text-3xl">
+          <h3 class="mt-3 font-display text-2xl tracking-[0.2em] uppercase sm:text-3xl">
             Menuju hari bahagia
           </h3>
         </Reveal>
