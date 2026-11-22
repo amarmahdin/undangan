@@ -238,6 +238,10 @@ onBeforeUnmount(() => {
       <div
         class="absolute inset-0 bg-gradient-to-t from-burgundy-deep via-burgundy-deep/50 to-burgundy-deep/35"
       />
+
+      <div class="relative z-[1] mx-auto max-w-3xl text-center text-champagne">
+
+      </div>
     </section>
   </div>
 </template>
