@@ -298,5 +298,9 @@ onBeforeUnmount(() => {
       v-if="invitation.wishes?.enabled"
       :wishes="invitation.wishes"
     />
+
+    <footer class="burgundy-luxe px-5 py-10 text-center text-champagne/80">
+      
+    </footer>
   </div>
 </template>
