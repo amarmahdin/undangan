@@ -304,7 +304,7 @@ onBeforeUnmount(() => {
       <p class="mt-2 text-xs tracking-[0.2em] uppercase text-gold">
         19 Oktober 2026 · Baubau
       </p>
-      <p class="mt-4 font-display text-sm ">
+      <p class="mt-4 font-display text-sm text-champagne/75">
         {{ invitation.closing }}
       </p>
     </footer>
