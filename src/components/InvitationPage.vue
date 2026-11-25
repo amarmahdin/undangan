@@ -280,8 +280,12 @@ onBeforeUnmount(() => {
         </div>
       </div>
     </section>
-    
+
     <GalleryCarousel :photos="invitation.gallery" :asset="asset" />
 
+    <LoveStory
+      v-if="invitation.loveStory?.enabled"
+      
+    />
   </div>
 </template>
