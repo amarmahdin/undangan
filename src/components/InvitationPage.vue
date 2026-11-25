@@ -291,6 +291,7 @@ onBeforeUnmount(() => {
     <GiftSection
       v-if="invitation.gifts?.enabled"
       :gifts="invitation.gifts"
+      :asset="asset"
     />
   </div>
 </template>
