@@ -300,6 +300,7 @@ onBeforeUnmount(() => {
     />
 
     <footer class="burgundy-luxe px-5 py-10 text-center text-champagne/80">
+      <p class="font-script text-3xl text-champagne">Euis & Eka</p>
       
     </footer>
   </div>
