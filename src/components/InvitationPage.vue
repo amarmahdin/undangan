@@ -296,7 +296,7 @@ onBeforeUnmount(() => {
 
     <WishForm
       v-if="invitation.wishes?.enabled"
-      
+      :wishes="invitation.wishes"
     />
   </div>
 </template>
