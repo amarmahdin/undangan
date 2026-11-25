@@ -269,7 +269,9 @@ onBeforeUnmount(() => {
             :delay="100 + i * 90"
           >
             <div class="countdown-tile countdown-pulse px-2 py-5 text-champagne">
-
+              <p class="font-display text-2xl tabular-nums sm:text-4xl">
+                
+              </p>
             </div>
           </Reveal>
         </div>
