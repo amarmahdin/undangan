@@ -293,5 +293,10 @@ onBeforeUnmount(() => {
       :gifts="invitation.gifts"
       :asset="asset"
     />
+
+    <WishForm
+      v-if="invitation.wishes?.enabled"
+      
+    />
   </div>
 </template>
