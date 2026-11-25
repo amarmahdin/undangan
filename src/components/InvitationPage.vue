@@ -278,8 +278,10 @@ onBeforeUnmount(() => {
             </div>
           </Reveal>
         </div>
-
       </div>
     </section>
+    
+    <GalleryCarousel :photos="invitation.gallery" :asset="asset" />
+
   </div>
 </template>
