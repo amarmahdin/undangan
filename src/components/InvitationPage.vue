@@ -305,7 +305,7 @@ onBeforeUnmount(() => {
         19 Oktober 2026 · Baubau
       </p>
       <p class="mt-4 font-display text-sm ">
-        
+        {{ invitation.closing }}
       </p>
     </footer>
   </div>
