@@ -272,7 +272,9 @@ onBeforeUnmount(() => {
               <p class="font-display text-2xl tabular-nums sm:text-4xl">
                 {{ pad(unit.value) }}
               </p>
-              
+              <p class="mt-1 text-[11px] tracking-[0.16em] uppercase text-gold">
+
+              </p>
             </div>
           </Reveal>
         </div>
