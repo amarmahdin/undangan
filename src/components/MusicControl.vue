@@ -9,4 +9,6 @@ const props = defineProps({
 
 const playing = ref(false)
 const ready = ref(false)
+const audio = ref(null)
+
 </script>
