@@ -6,4 +6,7 @@ const props = defineProps({
   active: { type: Boolean, default: false },
   volume: { type: Number, default: 0.45 },
 })
+
+const playing = ref(false)
+
 </script>
