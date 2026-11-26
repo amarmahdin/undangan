@@ -20,5 +20,8 @@ function ensureAudio() {
     el.addEventListener('canplaythrough', () => {
         ready.value = true
     })
+    el.addEventListener('play', () => {
+    
+    })
 }
 </script>
