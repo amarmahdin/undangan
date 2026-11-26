@@ -21,7 +21,7 @@ function ensureAudio() {
         ready.value = true
     })
     el.addEventListener('play', () => {
-    
+        playing.value = true
     })
 }
 </script>
