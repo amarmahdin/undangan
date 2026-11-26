@@ -15,5 +15,6 @@ function ensureAudio() {
     if (audio.value) return audio.value
     const el = new Audio(props.src)
     el.loop = true
+    el.preload = 'auto'
 }
 </script>
