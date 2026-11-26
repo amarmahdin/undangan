@@ -13,5 +13,6 @@ const audio = ref(null)
 
 function ensureAudio() {
     if (audio.value) return audio.value
+    const el = new Audio(props.src)
 }
 </script>
