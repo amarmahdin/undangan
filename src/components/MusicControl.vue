@@ -17,5 +17,8 @@ function ensureAudio() {
     el.loop = true
     el.preload = 'auto'
     el.volume = Math.min(1, Math.max(0, props.volume))
+    el.addEventListener('canplaythrough', () => {
+    
+    })
 }
 </script>
