@@ -12,6 +12,6 @@ const ready = ref(false)
 const audio = ref(null)
 
 function ensureAudio() {
-    
+    if (audio.value) return audio.value
 }
 </script>
