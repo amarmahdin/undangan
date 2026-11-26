@@ -16,5 +16,6 @@ function ensureAudio() {
     const el = new Audio(props.src)
     el.loop = true
     el.preload = 'auto'
+    el.volume = Math.min(1, Math.max(0, props.volume))
 }
 </script>
