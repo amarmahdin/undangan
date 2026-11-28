@@ -43,6 +43,7 @@ function pause() {
 }
 
 async function toggle() {
-    
+    if (playing.value) pause()
+    else await play()
 }
 </script>
