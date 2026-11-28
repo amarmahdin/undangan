@@ -65,3 +65,7 @@ onBeforeUnmount(() => {
 
 defineExpose({ play, pause, toggle })
 </script>
+
+<template>
+    
+</template>
