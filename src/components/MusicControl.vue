@@ -49,6 +49,6 @@ async function toggle() {
 
 watch(
     () => props.active,
-    {}
+    async (value) => {}
 )
 </script>
