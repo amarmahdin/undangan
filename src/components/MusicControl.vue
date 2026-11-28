@@ -26,4 +26,8 @@ function ensureAudio() {
     audio.value = el
     return el
 }
+
+async function play() {
+    
+}
 </script>
