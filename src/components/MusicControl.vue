@@ -30,9 +30,9 @@ function ensureAudio() {
 async function play() {
     const el = ensureAudio()
     try {
-
+        await el.play()
     } catch {
-        
+
     }
 }
 </script>
