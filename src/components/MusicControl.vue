@@ -54,4 +54,8 @@ watch(
         else pause()
     },
 )
+
+onBeforeUnmount(() => {
+    
+})
 </script>
