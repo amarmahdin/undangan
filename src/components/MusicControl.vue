@@ -70,6 +70,8 @@ defineExpose({ play, pause, toggle })
     <button
         v-show="active"
         type="button"
+        class="music-btn fixed bottom-[max(1.25rem,env(safe-area-inset-bottom))] right-4 z-[60] flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-gold/45 bg-burgundy text-champagne shadow-[0_12px_28px_rgba(48,16,24,0.35)] transition duration-200 hover:bg-burgundy-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold active:scale-95 sm:right-6"
+    
     >
 
     </button>
