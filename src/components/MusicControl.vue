@@ -62,4 +62,6 @@ onBeforeUnmount(() => {
         audio.value = null
     }
 })
+
+defineExpose({ play, pause, toggle })
 </script>
