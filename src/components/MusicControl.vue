@@ -36,4 +36,8 @@ async function play() {
         playing.value = false
     }
 }
+
+function pause() {
+    
+}
 </script>
