@@ -58,7 +58,8 @@ watch(
 onBeforeUnmount(() => {
     pause()
     if (audio.value) {
-        
+        audio.value.src = ''
+        audio.value = null
     }
 })
 </script>
