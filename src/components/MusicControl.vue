@@ -31,6 +31,7 @@ async function play() {
     const el = ensureAudio()
     try {
         await el.play()
+        playing.value = true
     } catch {
 
     }
