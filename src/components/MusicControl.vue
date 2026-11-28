@@ -41,4 +41,8 @@ function pause() {
     audio.value?.pause()
     playing.value = false
 }
+
+async function toggle() {
+    
+}
 </script>
