@@ -68,7 +68,8 @@ defineExpose({ play, pause, toggle })
 
 <template>
     <button
-    v-show="active"
+        v-show="active"
+        type="button"
     >
 
     </button>
