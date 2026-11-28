@@ -28,6 +28,6 @@ function ensureAudio() {
 }
 
 async function play() {
-    
+    const el = ensureAudio()
 }
 </script>
