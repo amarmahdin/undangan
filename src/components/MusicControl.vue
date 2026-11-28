@@ -46,4 +46,9 @@ async function toggle() {
     if (playing.value) pause()
     else await play()
 }
+
+watch(
+    () => props.active,
+    {}
+)
 </script>
