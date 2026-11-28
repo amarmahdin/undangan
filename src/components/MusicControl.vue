@@ -57,5 +57,8 @@ watch(
 
 onBeforeUnmount(() => {
     pause()
+    if (audio.value) {
+        
+    }
 })
 </script>
