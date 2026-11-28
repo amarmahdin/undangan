@@ -56,6 +56,6 @@ watch(
 )
 
 onBeforeUnmount(() => {
-    
+    pause()
 })
 </script>
