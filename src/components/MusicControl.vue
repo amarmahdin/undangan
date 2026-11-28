@@ -38,6 +38,7 @@ async function play() {
 }
 
 function pause() {
-    
+    audio.value?.pause()
+    playing.value = false
 }
 </script>
