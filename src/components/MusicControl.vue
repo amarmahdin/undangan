@@ -33,7 +33,7 @@ async function play() {
         await el.play()
         playing.value = true
     } catch {
-
+        playing.value = false
     }
 }
 </script>
